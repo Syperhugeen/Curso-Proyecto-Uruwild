@@ -1,7 +1,7 @@
              {!! Form::open( ['route'   => $Route,
                             'method'   => 'Post',
                             'files'    => true,
-                            'class'    => 'col-lg-8 mx-auto',
+                            'class'    => 'col-lg-8 mx-auto text-center',
                            
                             ])               !!}
 
