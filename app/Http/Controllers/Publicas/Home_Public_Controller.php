@@ -26,12 +26,13 @@ class Home_Public_Controller extends Controller
     public function get_home(Request $Request)
     {
         
-        $Empresa               = $this->EmpresaRepo->getEmpresaDatos();        
+        $Empresa               = $this->EmpresaRepo->getEmpresaDatos();  
+        $Route                 = 'post_contacto_form';      
         
 
 
 
-        return view('paginas.home.home', compact('Empresa'));
+        return view('paginas.home.home', compact('Empresa','Route'));
     }
 
 
