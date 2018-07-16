@@ -1,9 +1,13 @@
              {!! Form::open( ['route'   => $Route,
                             'method'   => 'Post',
                             'files'    => true,
-                            'class'    => 'get_width_60',
+                            'class'    => 'col-lg-8 mx-auto',
                            
                             ])               !!}
+
+                            <h2 class="section-heading">Contáctanos</h2>
+                            <hr class="my-4">
+                           
 
                <div class="form-group">
                     <label class="control-label" for="Nombre">Nombres</label>
