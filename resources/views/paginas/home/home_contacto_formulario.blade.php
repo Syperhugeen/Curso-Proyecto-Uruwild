@@ -1,8 +1,8 @@
              {!! Form::open( ['route'   => $Route,
                             'method'   => 'Post',
                             'files'    => true,
-                            'class'    => 'Form-Auth',
-                            'id'       => 'Form-LogIn'
+                            'class'    => 'get_width_60',
+                           
                             ])               !!}
 
                <div class="form-group">
