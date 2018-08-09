@@ -4,7 +4,7 @@
        
       <div class="get_width_100  text-center text-white d-flex " style="position: relative;">
         
-        <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto1.jpg" style="height: 100%;width: 100%;">
+        <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto1.jpg" style="height: 100%;width: 100%; position:absolute;top:0;width:0;">
         
         
           
