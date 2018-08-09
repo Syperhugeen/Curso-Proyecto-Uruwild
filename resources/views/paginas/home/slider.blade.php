@@ -1,4 +1,4 @@
-    <div class="{{-- masthead --}} text-center text-white d-flex">
+    <div class="{{-- masthead --}} text-center text-white d-flex" id="slider_home">
 
       <div class="get_width_100" style="position: relative;">
         
