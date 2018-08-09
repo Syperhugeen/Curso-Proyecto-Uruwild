@@ -47,6 +47,7 @@ elixir(function(mix) {
         'Template_creative/jquery.magnific-popup.js',
         'Template_creative/creative.js',
          'Template_creative/jquery.easing.compatibility.js',
+         'Plug-slippry.js',
         'inicio.js',
         /*'mis-animations.js',
         'mis-funciones_personalizadas.js',
