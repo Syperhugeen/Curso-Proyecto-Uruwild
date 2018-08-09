@@ -39,15 +39,15 @@ elixir(function(mix) {
         'Plug-slippry.js',
         'Plug-image-dropdown.js',
         'ekko-lightbox.js',*/
-        'Plug-slippry.js',
+        
         'Template_creative/jquery.js',
         'Template_creative/bootstrap.bundle.js',
         'Template_creative/jquery.easing.js',        
         'Template_creative/scrollreveal.js',
         'Template_creative/jquery.magnific-popup.js',
         'Template_creative/creative.js',
-         'Template_creative/jquery.easing.compatibility.js',
-         'Plug-slippry.js',
+        'Template_creative/jquery.easing.compatibility.js',
+        'Plug-slippry.js',
         'inicio.js',
         /*'mis-animations.js',
         'mis-funciones_personalizadas.js',
