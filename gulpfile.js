@@ -36,9 +36,10 @@ elixir(function(mix) {
         'Plug-validator-Boostrap.js',
         'Plug-texarea-Te_v1.js',
         'Plug-bootstrap-fileinput v4.3.7.js',
-        'Plug-slick.min.js',
+        'Plug-slippry.js',
         'Plug-image-dropdown.js',
         'ekko-lightbox.js',*/
+        'Plug-slippry.js',
         'Template_creative/jquery.js',
         'Template_creative/bootstrap.bundle.js',
         'Template_creative/jquery.easing.js',        
