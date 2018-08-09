@@ -48,7 +48,6 @@
     </nav>
 
    @include('paginas.home.slider')
-   
     <section class="bg-primary" id="about">
       <div class="container">
         <div class="row">

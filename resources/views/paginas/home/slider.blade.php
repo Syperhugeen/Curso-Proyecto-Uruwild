@@ -1,9 +1,9 @@
-    <div class="{{-- masthead --}} get_width_100" id="slider_home">
+    <div class="{{-- masthead --}}" id="#slider_home" style="margin-top:72px;">
 
-      <div class="get_width_100" style="position: relative;">
+      <div class="get_width_100  text-center text-white d-flex" style="position: relative;">
         
         <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto1.jpg" class="get_width_100">
-         <div class="" style="position: absolute;top:0; left: 0;">
+        <div class="container my-auto" >
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
