@@ -61,12 +61,13 @@ elixir(function(mix) {
         'Plug-EasyAutoComplete.js',
         'Plug-Scroll-Too.js',
         'mis-disparador_De_Form.js',
-        'mis-sliders.js',
+        
         'mis-tooltips.js',
         'mis-flechitas-autopocicionadas.js',
         'mis-botones_para_adjuntar.js',
         'mis-textareas.js',
         'mis-file_input.js',*/
+        'mis-sliders.js',
         'fin.js']);
 
 
