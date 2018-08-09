@@ -2,10 +2,10 @@
       <div id="slider_home">
         
        
-      <div class="get_width_100  text-center text-white d-flex" style="position: relative;">
+      <div class="get_width_100  text-center text-white d-flex Helper-OrdenarHijos-Row" style="position: relative;">
         
-        <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto1.jpg" class="get_width_100">
-        <div class="container my-auto" style="margin-top:79px; position: absolute; top:72px; left:0; width: 100%;">
+        <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto1.jpg" style="height: 100%;width: 100%;">
+        <div class="my-auto" style="margin-top:79px; position: absolute; top:72px; left:0; width: 100%;">
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
