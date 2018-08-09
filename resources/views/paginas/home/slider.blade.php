@@ -9,8 +9,8 @@
         
           
        
-        <div class="my-auto" style="margin-top:79px; position: absolute; top:72px; left:0; width: 100%;">
-        <div style="height: 100%; " class="contenedor-baner-img-tex-html">
+        <div class="my-auto get_width_100"  style="height: 100%;">
+        <div style="height:100%;" class="contenedor-baner-img-tex-html">
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
