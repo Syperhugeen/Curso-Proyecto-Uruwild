@@ -1,5 +1,5 @@
     <div class="{{-- masthead --}} get_width_100"  >
-      <div id="#slider_home">
+      <div id="slider_home">
         
        
       <div class="get_width_100  text-center text-white d-flex" style="position: relative;">
@@ -26,7 +26,7 @@ el ecoturismo y la pesca?
 
       </div>
 
-      
+
       </div> 
 
 
