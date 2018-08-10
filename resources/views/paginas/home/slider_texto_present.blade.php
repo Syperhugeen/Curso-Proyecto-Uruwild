@@ -13,7 +13,10 @@
           </div>
           <br>
           <br>
-          <div class="col-md-6 mx-auto">
+         
+        </div>
+        <div class="row">
+           <div class="col-md-6 mx-auto">
               <span class="col-md-4 mx-auto"><a href=""><span class="socicon socicon-facebook"></span></a></span>
               <span class="col-md-4 mx-auto"><a href=""><span class="socicon socicon-instagram"></span></a></span>
               <span class="col-md-4 mx-auto"><a href=""><span class="socicon socicon-twitter"></span></a></span>
