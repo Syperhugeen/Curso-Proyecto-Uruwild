@@ -10,10 +10,11 @@
           <div class="col-lg-8 mx-auto">
             <p class="text-faded mb-5">Te invitamos a vivir una experiencia que te hará renacer.</p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">¡DAME DOS!</a>
-
-            <span class="socicon socicon-facebook"></span>
-            <span class="socicon socicon-facebook"></span>
-            <span class="socicon socicon-facebook"></span>
+          </div>
+          <div class="col-md-6">
+              <span class="col-md-4 mx-auto"><span class="socicon socicon-facebook"></span></span>
+              <span class="col-md-4 mx-auto"><span class="socicon socicon-facebook"></span></span>
+              <span class="col-md-4 mx-auto"><span class="socicon socicon-facebook"></span></span>
           </div>
         </div>
       </div>
