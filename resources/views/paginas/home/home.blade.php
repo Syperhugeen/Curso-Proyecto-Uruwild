@@ -68,7 +68,7 @@ de memorables experiencias.
     </section>
 
     {{-- imagen de seccion --}}
-    <img src="{{url()}}/imagenes/uruwild_section_foto1.jpg" class="get_width_100">
+    <img src="{{url()}}/imagenes/Slider/uruwild_section_foto1.jpg" class="get_width_100">
 
     <section id="services">
       <div class="container">
@@ -89,7 +89,7 @@ de memorables experiencias.
               <p class="text-muted mb-0">¡Vení a vivir la pesca deportiva de una manera diferente! Aguas de Vadeo, float tubes y canoas. Te acercamos a los mejores ríos, arroyos y cañadas de agua clara para perseguir a pez visto las increíbles tarariras tornasol y los esafiantes dorados del Uruguay.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Ecoturismo</h3>
@@ -101,7 +101,7 @@ de memorables experiencias.
     </section>
 
     {{-- imagen de seccion --}}
-    <img src="{{url()}}/imagenes/uruwild_section_foto2.jpg" class="get_width_100">
+    <img src="{{url()}}/imagenes/Slider/uruwild_section_foto2.jpg" class="get_width_100">
 
     {{-- morethanfishing --}}
 
