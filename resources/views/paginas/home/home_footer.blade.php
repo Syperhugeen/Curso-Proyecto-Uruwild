@@ -1,5 +1,5 @@
- <div class="container" style="background-color:#30302f;">
-        <div class="row">
+ <section  style="background-color:#30302f;">
+        
           <div class="col-lg-4 col-md-4 text-center">
             <img src="">
           </div>
@@ -19,5 +19,5 @@
               <span class="col-md-4 mx-auto"><a href=""><span class="socicon socicon-twitter"></span></a></span>
               </div>
           </div>          
-        </div>
-</div>
+        
+</section>
