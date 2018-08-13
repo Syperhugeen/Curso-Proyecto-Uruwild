@@ -67,6 +67,9 @@ de memorables experiencias.
       </div>
     </section>
 
+    {{-- imagen de seccion --}}
+    <img src="{{url()}}/imagenes/uruwild_section_foto1.jpg" class="get_width_100">
+
     <section id="services">
       <div class="container">
         <div class="row">
@@ -79,38 +82,30 @@ de memorables experiencias.
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Sturdy Templates</h3>
-              <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
+              <h3 class="mb-3">Pesca</h3>
+              <p class="text-muted mb-0">¡Vení a vivir la pesca deportiva de una manera diferente! Aguas de Vadeo, float tubes y canoas. Te acercamos a los mejores ríos, arroyos y cañadas de agua clara para perseguir a pez visto las increíbles tarariras tornasol y los esafiantes dorados del Uruguay.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Ready to Ship</h3>
-              <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
+              <h3 class="mb-3">Ecoturismo</h3>
+              <p class="text-muted mb-0">Paseos en canoa y en bici, cabalgatas, caminatas y senderos, birdwatching y fotografía, reconocimiento de flora y fauna, o simplemente disfrutar de la tranquilidad de la naturaleza como más te guste.</p>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Up to Date</h3>
-              <p class="text-muted mb-0">We update dependencies to keep things fresh.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Made with Love</h3>
-              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
-            </div>
-          </div>
+          </div>          
         </div>
       </div>
     </section>
 
+    {{-- imagen de seccion --}}
+    <img src="{{url()}}/imagenes/uruwild_section_foto2.jpg" class="get_width_100">
+
+    {{-- morethanfishing --}}
+
+    {{-- la experiencia Uruwild --}}
     <section class="p-0" id="portfolio">
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
