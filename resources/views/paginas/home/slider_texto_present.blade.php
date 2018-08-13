@@ -1,6 +1,6 @@
   <div class="my-auto get_width_100"  style="height: 100%; position:absolute;top:0;left:0;">
         <div style="height:100%;" class="contenedor-baner-img-tex-html">
-        <div class="row">
+        <div >
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
               <strong>¿Te apasionaN la naturaleza, el ecoturismo y la pesca?</strong>
