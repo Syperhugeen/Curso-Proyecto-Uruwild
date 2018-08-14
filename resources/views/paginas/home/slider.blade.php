@@ -10,6 +10,9 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="{{url()}}/imagenes/Slider/uruwild_portada_foto1.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        @include('paginas.home.datos_para_carousel')
+      </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="{{url()}}/imagenes/Slider/uruwild_portada_foto2.jpg" alt="Second slide">
