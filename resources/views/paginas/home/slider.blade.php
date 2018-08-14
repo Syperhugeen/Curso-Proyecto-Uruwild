@@ -36,6 +36,8 @@
   </a>
 </div>
 
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
   {{-- <div id="slider_home">
 
     <li class="get_width_100  text-center text-white d-flex " style="position: relative;">
