@@ -3,7 +3,7 @@
 $('#slider_home').slippry({
 
   
-  slippryWrapper: '<div class="sy-box portfolio-slider" />', // wrapper to wrap everything, including pager
+  
    // options
   adaptiveHeight: false, // height of the sliders adapts to current slide
   start: 'random', // num (starting from 1), random
