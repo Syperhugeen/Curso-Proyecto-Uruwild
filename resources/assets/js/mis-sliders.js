@@ -1,3 +1,3 @@
 
 
-$('#slider_home').slippry();
+$('#slider_home').slippry({elements:'div'});
