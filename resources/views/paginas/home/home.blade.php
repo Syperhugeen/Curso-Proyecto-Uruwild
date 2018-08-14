@@ -49,6 +49,7 @@
 
     <!-- Scripts -->
     <script src="{{url()}}{{ elixir('js/all.js')}} " ></script>  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 
    
 

@@ -1,4 +1,4 @@
-<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
 <div  class="{{-- masthead --}} get_width_100 mostrar-cabecera-destop"  >
   
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
