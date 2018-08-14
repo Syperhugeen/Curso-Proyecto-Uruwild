@@ -1,4 +1,4 @@
-<div style="display: none;" class="{{-- masthead --}} get_width_100 mostrar-cabecera-destop"  >
+<div  class="{{-- masthead --}} get_width_100 mostrar-cabecera-destop"  style="display: none;">
   <div id="slider_home">
     <div class="get_width_100  text-center text-white d-flex " style="position: relative;">
       <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto1.jpg" style="height: 100%;width: 100%; ">
