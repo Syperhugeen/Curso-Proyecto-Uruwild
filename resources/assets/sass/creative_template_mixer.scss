@@ -43,19 +43,21 @@
 
 .border-switch{
   border-top: solid 1px #b4b4b4;  
+  border-left:none;
 }
 
 
 @media (max-width: 990px) {
+
       .texto-centrado-personalizado{
               text-align: center;
        } 
 
-       .border-switch{
-  border-top: solid 1px transparent;
-  border-left:  solid 1px transparent;
+      .border-switch{
+        border-top: none;
+        border-left:  solid 1px #b4b4b4;
+      }
 }
-    }
 
 @media (min-width: 990px) {  
 .mostrar-cabecera-destop{
