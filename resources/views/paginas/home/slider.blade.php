@@ -5,6 +5,30 @@
       @include('paginas.home.slider_texto_present')
 
     </div>
+
+    <div class="get_width_100  text-center text-white d-flex " style="position: relative;">
+      <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto2.jpg" style="height: 100%;width: 100%; ">
+      @include('paginas.home.slider_texto_present')
+
+    </div>
+
+    <div class="get_width_100  text-center text-white d-flex " style="position: relative;">
+      <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto3.jpg" style="height: 100%;width: 100%; ">
+      @include('paginas.home.slider_texto_present')
+
+    </div>
+
+    <div class="get_width_100  text-center text-white d-flex " style="position: relative;">
+      <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto4.jpg" style="height: 100%;width: 100%; ">
+      @include('paginas.home.slider_texto_present')
+
+    </div>
+
+    <div class="get_width_100  text-center text-white d-flex " style="position: relative;">
+      <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto5.jpg" style="height: 100%;width: 100%; ">
+      @include('paginas.home.slider_texto_present')
+
+    </div>
   </div>
 </div>
 
