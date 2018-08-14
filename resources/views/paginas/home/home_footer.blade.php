@@ -1,11 +1,11 @@
  <section  style="background-color:#30302f;">
-        
-          <div class="col-lg-4 col-md-4 text-center">
+        <div>
+           <div class="col-lg-4 col-md-4 text-center">
             <img src="{{url()}}/imagenes/Empresa/uruwild_logo_white.png" class="get_width_100">
           </div>
           <div class="col-lg-4 col-md-4 text-center">
             <p class="color-text-gris"> <i class="fa fa-phone"></i>2601 1234</p>
-            <p class="color-text-gris"> <i class="fa fa-mobile-alt"></i> 099 123 456</p>
+            <p class="color-text-gris"> <i class="fa fa-phone-square"></i> 099 123 456</p>
             <p class="color-text-gris"><i class="fa fa-envelope"></i> contacto@uruwild.com</p>
           </div> 
           <div class="col-lg-4 col-md-4 text-center">
@@ -20,4 +20,6 @@
               </div>
           </div>          
         
+        </div>
+         
 </section>
