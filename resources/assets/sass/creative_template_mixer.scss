@@ -33,17 +33,19 @@
   color: #b4b4b4;
 }
 
+.mostrar-cabecera-destop{
+  display:none;
+}
 
 @media (min-width: 700px) {  
 .mostrar-cabecera-destop{
   display:block;
 }
 
-}
 
-@media (max-width: 700px) {  
 .ocultar-cabecera-mobil{
   display:none;
 }
 
 }
+
