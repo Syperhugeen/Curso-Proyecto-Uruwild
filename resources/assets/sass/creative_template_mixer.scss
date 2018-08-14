@@ -41,6 +41,13 @@
   display:block;
 }
 
+
+@media (max-width: 450px) {
+      .texto-centrado-personalizado{
+              text-align: center;
+       } 
+    }
+
 @media (min-width: 920px) {  
 .mostrar-cabecera-destop{
   display:block;
