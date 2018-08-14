@@ -1,7 +1,7 @@
  <section  style="background-color:#30302f;">
         
           <div class="col-lg-4 col-md-4 text-center">
-            <img src="">
+            <img src="{{url()}}/imagenes/Empresa/uruwild_logo_white.png">
           </div>
           <div class="col-lg-4 col-md-4 text-center">
             <p class="color-text-gris">2601 1234</p>
