@@ -41,14 +41,23 @@
   display:block;
 }
 
+.border-switch{
+  border-top: solid 1px #b4b4b4;  
+}
 
-@media (max-width: 450px) {
+
+@media (max-width: 990px) {
       .texto-centrado-personalizado{
               text-align: center;
        } 
+
+       .border-switch{
+  border-top: solid 1px transparent;
+  border-left:  solid 1px transparent;
+}
     }
 
-@media (min-width: 920px) {  
+@media (min-width: 990px) {  
 .mostrar-cabecera-destop{
   display:block;
 }
