@@ -11,13 +11,13 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="..." alt="...">
+      <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto1.jpg" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
     <div class="item">
-      <img src="..." alt="...">
+      <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto2.jpg" alt="...">
       <div class="carousel-caption">
         ...
       </div>
