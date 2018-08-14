@@ -1,34 +1,30 @@
 <div  class="{{-- masthead --}} get_width_100 mostrar-cabecera-destop"  >
   <div id="slider_home">
-    <div class="get_width_100  text-center text-white d-flex " style="position: relative;">
+
+    <li class="get_width_100  text-center text-white d-flex " style="position: relative;">
       <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto1.jpg" style="height: 100%;width: 100%; ">
       @include('paginas.home.slider_texto_present')
+    </li>
 
-    </div>
-
-    <div class="get_width_100  text-center text-white d-flex " style="position: relative;">
+    <li class="get_width_100  text-center text-white d-flex " style="position: relative;">
       <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto2.jpg" style="height: 100%;width: 100%; ">
       @include('paginas.home.slider_texto_present')
+    </li>
 
-    </div>
-
-    <div class="get_width_100  text-center text-white d-flex " style="position: relative;">
+    <li class="get_width_100  text-center text-white d-flex " style="position: relative;">
       <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto3.jpg" style="height: 100%;width: 100%; ">
       @include('paginas.home.slider_texto_present')
+    </li>
 
-    </div>
-
-    <div class="get_width_100  text-center text-white d-flex " style="position: relative;">
+    <li class="get_width_100  text-center text-white d-flex " style="position: relative;">
       <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto4.jpg" style="height: 100%;width: 100%; ">
       @include('paginas.home.slider_texto_present')
+    </li>
 
-    </div>
-
-    <div class="get_width_100  text-center text-white d-flex " style="position: relative;">
+    <li class="get_width_100  text-center text-white d-flex " style="position: relative;">
       <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto5.jpg" style="height: 100%;width: 100%; ">
       @include('paginas.home.slider_texto_present')
-
-    </div>
+    </li>
   </div>
 </div>
 
