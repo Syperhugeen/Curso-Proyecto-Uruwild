@@ -1,5 +1,5 @@
  <section  style="background-color:#30302f;">
-        <div>
+        <div class="row">
            <div class="col-lg-4 col-md-4 text-center">
             <img src="{{url()}}/imagenes/Empresa/uruwild_logo_white.png" class="get_width_100">
           </div>
