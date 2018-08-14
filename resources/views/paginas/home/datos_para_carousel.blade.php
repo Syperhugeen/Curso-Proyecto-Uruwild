@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" style="margin-bottom: 200px;">
     <div class="col-lg-10 mx-auto">
       <h1 class="text-uppercase">
         <strong>¿Te apasionaN la naturaleza, el ecoturismo y la pesca?</strong>
