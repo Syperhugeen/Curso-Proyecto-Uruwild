@@ -37,6 +37,10 @@
   display:none;
 }
 
+.ocultar-cabecera-mobil{
+  display:block;
+}
+
 @media (min-width: 700px) {  
 .mostrar-cabecera-destop{
   display:block;
