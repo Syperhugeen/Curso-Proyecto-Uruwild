@@ -53,10 +53,7 @@
               text-align: center;
        } 
 
-      .border-switch{
-        border-top: none;
-        border-left:  solid 1px #b4b4b4;
-      }
+      
 }
 
 @media (min-width: 990px) {  
@@ -68,6 +65,11 @@
 .ocultar-cabecera-mobil{
   display:none;
 }
+
+.border-switch{
+        border-top: none;
+        border-left:  solid 1px #b4b4b4;
+      }
 
 }
 
