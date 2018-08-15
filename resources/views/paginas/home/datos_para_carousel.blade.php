@@ -1,3 +1,6 @@
+<div class="Helper-OrdenarHijos-Row Helper-OrdenarHijos-Row-space-around" >
+  
+
 <div class="row" style="margin-bottom: 130px;">
     <div class="col-lg-10 mx-auto">
       <h1 class="text-uppercase">
@@ -16,4 +19,5 @@
         <span class="col-md-4 mx-auto"><a href=""><span class="socicon socicon-instagram"></span></a></span>
         <span class="col-md-4 mx-auto"><a href=""><span class="socicon socicon-twitter"></span></a></span>
     </div>         
+</div>
 </div>
