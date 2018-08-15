@@ -10,7 +10,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="{{url()}}/imagenes/Slider/uruwild_portada_foto1.jpg" alt="First slide">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block Helper-OrdenarHijos-Row">
         @include('paginas.home.datos_para_carousel')
       </div>
     </div>
