@@ -1,4 +1,4 @@
-<div class="Helper-OrdenarHijos-Row Helper-OrdenarHijos-Row-space-around" >
+<div class="get_width_100 Helper-OrdenarHijos-Row" >
   
 
 <div class="row" style="margin-bottom: 130px;">
