@@ -28,8 +28,12 @@
       </div> --}}
     </div>
   </div>
-   @include('paginas.home.datos_para_carousel')
-   
+  
+      <div class="carousel-caption d-none d-md-block Helper-OrdenarHijos-Row">
+        @include('paginas.home.datos_para_carousel')
+      </div>
+  
+
 </div>
 
 
