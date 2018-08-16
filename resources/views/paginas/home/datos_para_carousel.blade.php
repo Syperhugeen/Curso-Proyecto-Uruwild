@@ -12,7 +12,7 @@
       <h2 class="text-faded mb-5 text-white">Te invitamos a vivir una experiencia que te hará renacer.</h2>
      
       <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">¡DAME DOS!</a>
-       <p class="text-faded my-2 text-white" style="font-style:italic; font-weight: bold;">#MORETHANFISHING</p>
+       <p class="text-faded my-3 text-white" style="font-style:italic; font-weight: bold;">#MORETHANFISHING</p>
     </div>
              
 
