@@ -4,7 +4,7 @@
           <div class="col-lg-12 text-center">
             <h2 class="section-heading">Actividades</h2>
             <hr class="my-4">
-            <h3 class="class="mb-4">Pensar una frase de un renglón para poner aquí</h3>
+            <h4 class="text-faded mb-4">Pensar una frase de un renglón para poner aquí</h4>
           </div>
         </div>
       </div>
