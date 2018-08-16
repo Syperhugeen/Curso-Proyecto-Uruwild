@@ -1,7 +1,7 @@
 <div class="get_width_100 Helper-OrdenarHijos-Row" style="min-height: 100vh;">
   
 
-<div class="" >
+<div class="get_width_100" >
     <div class="col-lg-10 mx-auto">
       <h1 class="text-uppercase">
         <strong>¿Te apasionaN la naturaleza, el ecoturismo y la pesca?</strong>
