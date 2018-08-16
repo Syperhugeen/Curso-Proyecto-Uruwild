@@ -1,4 +1,4 @@
- <section class="bg-primary" id="morethanfishing" style="padding: 3rem 0;">
+ <section class="bg-primary padding-secion-custom" id="morethanfishing" >
       <div class="container">
         <div class="row">
           <div class="col-lg-4 mx-auto text-center padding-xl">

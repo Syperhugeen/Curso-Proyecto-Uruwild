@@ -27,6 +27,14 @@
   width:100%;
 }
 
+.padding-secion-custom{
+  padding: 4rem 0;
+}
+
+.espacio-letras{
+  letter-spacing: 2px;
+  font-family: arial;
+}
 
 /* colores personalizados */
 .color-text-gris{
@@ -47,7 +55,7 @@
 }
 
 
-@media (max-width: 990px) {
+@media (max-width: 760px) {
 
       .texto-centrado-personalizado{
               text-align: center;
@@ -56,7 +64,7 @@
       
 }
 
-@media (min-width: 990px) {  
+@media (min-width: 760px) {  
 .mostrar-cabecera-destop{
   display:block;
 }
@@ -72,4 +80,22 @@
       }
 
 }
+
+
+/* ajustes de Erni */
+p, h1, h2, h3, h4, h5, h6 {
+ cursor: default;
+ text-decoration: none;
+ } 
+
+a, a p, a h1, a h2, a h3, a h4, a h5, a h6 {
+ cursor: pointer; cursor: hand;
+ text-decoration: none;
+ outline:none;
+}
+
+a:hover, a:focus, a>p:hover, a>p:focus{
+ text-decoration:none;
+ outline:none;
+ }
 
