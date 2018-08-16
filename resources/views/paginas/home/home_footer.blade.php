@@ -23,7 +23,7 @@
             </div> 
             <div class="col-lg-4 col-md-4 text-center padding-xl border-switch">
               <div class="Helper-OrdenarHijos-Row">
-                <p class="color-text-gris espacio-letras small">URUWILDⒸ2018</p>
+                <p class="color-text-gris espacio-letras small">URUWILD&#x24B8;2018</p>
                 <p class="color-text-gris espacio-letras small">Fotografía: Pablo Donagaray</p>
                 <p class="color-text-gris espacio-letras small">Diseño web: <a href="">Simbionte</a> </p>
               </div>
