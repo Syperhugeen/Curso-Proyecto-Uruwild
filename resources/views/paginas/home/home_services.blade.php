@@ -4,7 +4,7 @@
           <div class="col-lg-12 text-center">
             <h2 class="section-heading">Le experiencia URUWILD</h2>
             <hr class="my-4">
-            <h3 class="class="mb-4">Nos adaptamos a las preferencias y gustos de nuestros clientes</h3>
+            <h4 class="text-muted mb-4">Nos adaptamos a las preferencias y gustos de nuestros clientes</h4>
           </div>
         </div>
       </div>
