@@ -10,25 +10,26 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img style="width:100%; height:100vh;" src="{{url()}}/imagenes/Slider/uruwild_portada_foto1.jpg" alt="First slide">
-      <div class="carousel-caption d-none d-md-block Helper-OrdenarHijos-Row">
+      {{-- <div class="carousel-caption d-none d-md-block Helper-OrdenarHijos-Row">
         @include('paginas.home.datos_para_carousel')
-      </div>
-      <img src="{{url()}}/imagenes/Empresa/uruwild_logo_white.png" style="position: absolute; right: 5%; bottom: 5%; height: 5%;">
+      </div> --}}
+      
     </div>
     <div class="carousel-item">
       <img style="width:100%; height:100vh;" src="{{url()}}/imagenes/Slider/uruwild_portada_foto2.jpg" alt="Second slide">
-       <div class="carousel-caption d-none d-md-block Helper-OrdenarHijos-Row">
+       {{-- <div class="carousel-caption d-none d-md-block Helper-OrdenarHijos-Row">
         @include('paginas.home.datos_para_carousel')
-      </div>
+      </div> --}}
     </div>
     <div class="carousel-item">
       <img style="width:100%; height:100vh;" src="{{url()}}/imagenes/Slider/uruwild_portada_foto3.jpg" alt="Third slide">
-       <div class="carousel-caption d-none d-md-block Helper-OrdenarHijos-Row">
+       {{-- <div class="carousel-caption d-none d-md-block Helper-OrdenarHijos-Row">
         @include('paginas.home.datos_para_carousel')
-      </div>
+      </div> --}}
     </div>
   </div>
- 
+   @include('paginas.home.datos_para_carousel')
+   
 </div>
 
 
