@@ -6,7 +6,7 @@
       <h1 class="text-uppercase">
         <strong>¿Te apasionaN la naturaleza, el ecoturismo y la pesca?</strong>
       </h1>
-      <hr>
+      
     </div>
     <div class="col-lg-8 mx-auto">
       <h2 class="text-faded mb-5 text-white">Te invitamos a vivir una experiencia que te hará renacer.</h2>
