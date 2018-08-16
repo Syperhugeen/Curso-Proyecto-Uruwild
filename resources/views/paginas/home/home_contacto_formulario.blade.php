@@ -11,7 +11,7 @@
 
                <div class="form-group">
                     <label class="control-label" for="Nombre">Nombres</label>
-                    <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Introduzca su nombre" required autofocus />
+                    <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Introduzca su nombre" required  />
                 </div>            
                 <div class="form-group">
                     <label class="control-label" for="Motivo">Motivo de Contacto</label>
