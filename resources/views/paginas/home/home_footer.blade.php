@@ -1,8 +1,8 @@
  <section class="padding-xl" style="background-color:#30302f;">
        <div class="container">
           <div class="row">
-             <div class="col-lg-4 col-md-4 text-center padding-xl">
-              <img src="{{url()}}/imagenes/Empresa/uruwild_logo_white.png" class="get_width_100">
+             <div class="col-lg-4 col-md-4 text-center padding-xl Helper-OrdenarHijos-Row">
+              <img src="{{url()}}/imagenes/Empresa/uruwild_logo_white.png" class="get_width_100 p-5">
             </div>
             <div class="col-lg-4 col-md-4 text-center padding-xl border-switch">
               <p class="color-text-gris espacio-letras small"> <i class="fa fa-phone"></i> 2601 1234</p>
