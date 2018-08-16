@@ -10,13 +10,13 @@
     </div>
     <div class="col-lg-8 mx-auto">
       <p class="text-faded mb-5">Te invitamos a vivir una experiencia que te hará renacer.</p>
-      <p class="text-faded mb-1 text-white">#MORETHANFISHING</p>
+      <p class="text-faded mb-2 text-white">#MORETHANFISHING</p>
       <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">¡DAME DOS!</a>
     </div>
              
 
     <div class="col-md-6 mx-auto mt-4">
-        <span class="col-md-4 mx-auto"><a href=""><span class="socicon socicon-facebook"></span></a></span>
+        <span class="col-md-4 mx-auto"><a href=""><span class="social-media icon-facebook"></span></a></span>
         <span class="col-md-4 mx-auto"><a href=""><span class="socicon socicon-instagram"></span></a></span>
         <span class="col-md-4 mx-auto"><a href=""><span class="socicon socicon-twitter"></span></a></span>
     </div>         
