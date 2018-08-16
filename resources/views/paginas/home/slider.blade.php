@@ -9,16 +9,16 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img style="width:100%; height:100vh;" src="{{url()}}/imagenes/Slider/uruwild_portada_foto1.jpg" alt="First slide">
+      <img class="img-slider-size" src="{{url()}}/imagenes/Slider/uruwild_portada_foto1.jpg" alt="First slide">
      
       
     </div>
     <div class="carousel-item">
-      <img style="width:100%; height:100vh;" src="{{url()}}/imagenes/Slider/uruwild_portada_foto2.jpg" alt="Second slide">
+      <img class="img-slider-size" src="{{url()}}/imagenes/Slider/uruwild_portada_foto2.jpg" alt="Second slide">
        
     </div>
     <div class="carousel-item">
-      <img style="width:100%; height:100vh;" src="{{url()}}/imagenes/Slider/uruwild_portada_foto3.jpg" alt="Third slide">
+      <img class="img-slider-size" src="{{url()}}/imagenes/Slider/uruwild_portada_foto3.jpg" alt="Third slide">
        
     </div>
   </div>
