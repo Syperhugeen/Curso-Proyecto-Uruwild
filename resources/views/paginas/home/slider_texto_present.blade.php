@@ -26,4 +26,4 @@
       </div>
        </div>
 
-       <img src="{{url()}}/imagenes/Empresa/uruwild_logo_white.png" style="position: absolute; right: 5%; bottom: 5%; height: 5%;">
+       <img src="{{url()}}/imagenes/Empresa/uruwild_logo_white.png" style="position:absolute; right: 5%; bottom: 5%; height: 5%;">  
