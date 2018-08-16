@@ -10,8 +10,9 @@
     </div>
     <div class="col-lg-8 mx-auto">
       <h2 class="text-faded mb-5 text-white">Te invitamos a vivir una experiencia que te hará renacer.</h2>
-      <p class="text-faded mb-2 text-white" style="font-style:italic; font-weight: bold;">#MORETHANFISHING</p>
+     
       <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">¡DAME DOS!</a>
+       <p class="text-faded my-2 text-white" style="font-style:italic; font-weight: bold;">#MORETHANFISHING</p>
     </div>
              
 
