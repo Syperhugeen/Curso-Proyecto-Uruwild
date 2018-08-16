@@ -10,22 +10,16 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img style="width:100%; height:100vh;" src="{{url()}}/imagenes/Slider/uruwild_portada_foto1.jpg" alt="First slide">
-      {{-- <div class="carousel-caption d-none d-md-block Helper-OrdenarHijos-Row">
-        @include('paginas.home.datos_para_carousel')
-      </div> --}}
+     
       
     </div>
     <div class="carousel-item">
       <img style="width:100%; height:100vh;" src="{{url()}}/imagenes/Slider/uruwild_portada_foto2.jpg" alt="Second slide">
-       {{-- <div class="carousel-caption d-none d-md-block Helper-OrdenarHijos-Row">
-        @include('paginas.home.datos_para_carousel')
-      </div> --}}
+       
     </div>
     <div class="carousel-item">
       <img style="width:100%; height:100vh;" src="{{url()}}/imagenes/Slider/uruwild_portada_foto3.jpg" alt="Third slide">
-       {{-- <div class="carousel-caption d-none d-md-block Helper-OrdenarHijos-Row">
-        @include('paginas.home.datos_para_carousel')
-      </div> --}}
+       
     </div>
   </div>
 
@@ -39,33 +33,7 @@
 
 
 
-  {{-- <div id="slider_home">
-
-    <li class="get_width_100  text-center text-white d-flex " style="position: relative;">
-      <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto1.jpg" style="height: 100%;width: 100%; ">
-      @include('paginas.home.slider_texto_present')
-    </li>
-
-    <li class="get_width_100  text-center text-white d-flex " style="position: relative;">
-      <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto2.jpg" style="height: 100%;width: 100%; ">
-      @include('paginas.home.slider_texto_present')
-    </li>
-
-    <li class="get_width_100  text-center text-white d-flex " style="position: relative;">
-      <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto3.jpg" style="height: 100%;width: 100%; ">
-      @include('paginas.home.slider_texto_present')
-    </li>
-
-    <li class="get_width_100  text-center text-white d-flex " style="position: relative;">
-      <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto4.jpg" style="height: 100%;width: 100%; ">
-      @include('paginas.home.slider_texto_present')
-    </li>
-
-    <li class="get_width_100  text-center text-white d-flex " style="position: relative;">
-      <img src="{{url()}}/imagenes/Slider/uruwild_portada_foto5.jpg" style="height: 100%;width: 100%; ">
-      @include('paginas.home.slider_texto_present')
-    </li>
-  </div> --}}
+ 
 </div>
 
 <div class="get_width_100 ocultar-cabecera-mobil">
@@ -82,6 +50,7 @@
           </div>
           <div class="col-lg-8 mx-auto">
             <p class="text-faded mb-5">Te invitamos a vivir una experiencia que te hará renacer.</p>
+            <p class="text-faded mb-1 text-white">#MORETHANFISHING</p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">¡DAME DOS!</a>
           </div>
 
