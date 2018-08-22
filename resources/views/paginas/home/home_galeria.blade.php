@@ -63,8 +63,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Estancia arerungua disfrutando de un buen asado.jpg">
-              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Estancia arerungua disfrutando de un buen asado.jpg" alt="">
+             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Estancia-arerungua-disfrutando-de-un-buen-asado.jpg">
+              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Estancia-arerungua-disfrutando-de-un-buen-asado.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
