@@ -3,8 +3,8 @@
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Estancia Arerungua.jpg">
-              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Estancia Arerungua.jpg" alt="">
+            <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Estancia-Arerungua.jpg">
+              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Estancia-Arerungua.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -18,8 +18,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Tararira Tornasol.jpg">
-              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Tararira Tornasol.jpg" alt="">
+            <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Tararira-Tornasol.jpg">
+              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Tararira-Tornasol.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -33,8 +33,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Vadeando en el Arapey.jpg">
-              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Vadeando en el Arapey.jpg" alt="">
+             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Vadeando-en-el-Arapey.jpg">
+              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Vadeando-en-el-Arapey.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -48,8 +48,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Río Arapey.jpg">
-              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Río Arapey.jpg" alt="">
+             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Río-Arapey.jpg">
+              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Río-Arapey.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -78,8 +78,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/A Pez Visto.jpg">
-              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/A Pez Visto.jpg" alt="">
+             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/A-Pez-Visto.jpg">
+              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/A-Pez-Visto.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -93,8 +93,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Lugares preservados.jpg">
-              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Lugares preservados.jpg" alt="">
+             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Lugares-preservados.jpg">
+              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Lugares-preservados.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -123,8 +123,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Birdwatching-Pecho colorado.jpg">
-              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Birdwatching-Pecho colorado.jpg" alt="">
+             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Birdwatching-Pecho-colorado.jpg">
+              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Birdwatching-Pecho-colorado.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -138,8 +138,8 @@
             </a>
           </div>
            <div class="col-lg-4 col-sm-6">
-             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Float tubes.jpg">
-              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Float tubes.jpg" alt="">
+             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Float-tubes.jpg">
+              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Float-tubes.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -168,8 +168,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Paisajes y QUebradas del Norte.jpg">
-              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Paisajes y QUebradas del Norte.jpg" alt="">
+             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/Paisajes-y-QUebradas-del-Norte.jpg">
+              <img class="img-fluid" src="{{url()}}/imagenes/Galeria/Paisajes-y-QUebradas-del-Norte.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
