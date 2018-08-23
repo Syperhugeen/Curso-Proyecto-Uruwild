@@ -1,7 +1,7 @@
 
 <div  class="{{-- masthead --}} get_width_100 mostrar-cabecera-destop"  >
   
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-ride="true">
+<div id="carouselExampleIndicators" class="carousel slide auto" data-ride="carousel" data-interval="3000">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
