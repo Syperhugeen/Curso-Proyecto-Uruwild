@@ -11,9 +11,9 @@
               <p class="color-text-gris espacio-letras small"><i class="fa fa-envelope"></i> contacto@uruwild.com</p>
              
                <div class="mx-auto mt-4">
-                <span class="col-md-4 mx-auto"><a href=""><span class="socicon socicon-facebook"></span></a></span>
-                <span class="col-md-4 mx-auto"><a href=""><span class="socicon socicon-instagram"></span></a></span>
-                <span class="col-md-4 mx-auto"><a href=""><span class="socicon socicon-twitter"></span></a></span>
+                <span class="col-md-4 mx-auto"><a href=""> <img class="" src="{{url()}}/imagenes/Iconos/social_icon_facebook3.png">  </a></span>
+        <span class="col-md-4 mx-auto"><a href=""> <img class="" src="{{url()}}/imagenes/Iconos/social_icon_instagram3.png">  </a></span>
+        <span class="col-md-4 mx-auto"><a href=""> <img class="" src="{{url()}}/imagenes/Iconos/social_icon_twitter3.png">  </a></span>
                 </div>
 
               </div>
