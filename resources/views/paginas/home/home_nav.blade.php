@@ -10,8 +10,11 @@
               <a class="nav-link js-scroll-trigger" href="#about">NOSOTROS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">ACTIVIDADES</a>
+              <a class="nav-link js-scroll-trigger" href="#actividades">ACTIVIDADES</a>
             </li>
+             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">SERVICIOS</a>
+            </li> 
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">GALERIA</a>
             </li>
