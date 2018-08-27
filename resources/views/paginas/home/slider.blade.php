@@ -8,6 +8,7 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -20,15 +21,19 @@
        
     </div>
     <div class="carousel-item">
-      <img class="img-slider-size" src="{{url()}}/imagenes/Slider/uruwild_portada_foto3.jpg" alt="Third slide">
+      <img class="img-slider-size" src="{{url()}}/imagenes/Slider/uruwild_portada_foto3b.jpg" alt="Third slide">
        
     </div>
     <div class="carousel-item">
-      <img class="img-slider-size" src="{{url()}}/imagenes/Slider/uruwild_portada_foto4.jpg" alt="Third slide">
+      <img class="img-slider-size" src="{{url()}}/imagenes/Slider/uruwild_portada_foto4b.jpg" alt="Third slide">
        
     </div>
     <div class="carousel-item">
       <img class="img-slider-size" src="{{url()}}/imagenes/Slider/uruwild_portada_foto5.jpg" alt="Third slide">
+       
+    </div>
+    <div class="carousel-item">
+      <img class="img-slider-size" src="{{url()}}/imagenes/Slider/uruwild_portada_foto6a.jpg" alt="Third slide">
        
     </div>
   </div>

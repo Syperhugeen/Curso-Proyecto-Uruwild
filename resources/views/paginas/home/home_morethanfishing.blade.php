@@ -6,7 +6,7 @@
           </div>
           <div class="col-lg-8 mx-auto padding-xl">
             <h2 class="section-heading text-white  texto-centrado-personalizado">#MORETHANFISHING</h2>            
-            <p class="text-white mb-4 texto-centrado-personalizado">Ofrecemos una experiencia enriquecida para pescadores deportivos que gustan de una pesca dinámica y entretenida en sus diversos modos. Procuramos explorar constantemente nuestras Ríos y Arroyos ofreciendo las mejores locaciones en cuanto a belleza, estructura y la calidad de la pesca.
+            <p class="text-white mb-4 texto-centrado-personalizado">Ofrecemos una experiencia innovadora y diferente en ecoturismo y en pesca deportiva. Exploramos constantemente nuestros ríos y arroyos para conocer y acercarte a las mejores locaciones, teniendo en cuenta su belleza paisajística, su biodiversidad, y la posibilidad de tener una experiencia altamente dinámica e interactiva con el entorno natural.
             </p>
             
           </div>

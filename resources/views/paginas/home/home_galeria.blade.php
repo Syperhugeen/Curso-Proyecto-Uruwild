@@ -26,7 +26,7 @@
                     Tararira Tornasol
                   </div>
                   <div class="project-name">
-                     Pesa en el  arroyo Arerungua
+                     Pesca en el arroyo Arerungua
                   </div>
                 </div>
               </div>
@@ -68,10 +68,10 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Estancia arerungua disfrutando de un buen asado
+                    Estancia Arerungua
                   </div>
                   <div class="project-name">
-                    Estancia arerungua disfrutando de un buen asado
+                    Disfrutando de un buen asado
                   </div>
                 </div>
               </div>
@@ -86,7 +86,7 @@
                     A Pez Visto
                   </div>
                   <div class="project-name">
-                    Ríos y Arroyos de Agua clara
+                    Ríos y arroyos de agua clara
                   </div>
                 </div>
               </div>
@@ -131,7 +131,7 @@
                     Birdwatching 
                   </div>
                   <div class="project-name">
-                    Pecho colorado 1
+                    Pecho colorado
                   </div>
                 </div>
               </div>
@@ -146,7 +146,7 @@
                     Float tubes 
                   </div>
                   <div class="project-name">
-                    Otra manera de vivirlo
+                    Otra forma de vivirlo
                   </div>
                 </div>
               </div>
@@ -173,10 +173,10 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Paisajes y QUebradas del Norte 
+                    QUebradas del Norte 
                   </div>
                   <div class="project-name">
-                    Paisajes y QUebradas del Norte
+                    Paisajes a contemplar 
                   </div>
                 </div>
               </div>
