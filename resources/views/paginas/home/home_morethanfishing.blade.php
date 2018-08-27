@@ -2,7 +2,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 mx-auto text-center padding-xl">
-            <img class="get_width_100" src="{{url()}}/imagenes/Empresa/uruwild_logo_white.png">
+            <img class="get_width_70" src="{{url()}}/imagenes/Empresa/uruwild_logo_white.png">
           </div>
           <div class="col-lg-8 mx-auto padding-xl">
             <h2 class="section-heading text-white  texto-centrado-personalizado">#MORETHANFISHING</h2>            

@@ -41,7 +41,7 @@
       <div class="carousel-caption d-none d-md-block Helper-OrdenarHijos-Row">
         @include('paginas.home.datos_para_carousel')
       </div>
-      <img src="{{url()}}/imagenes/Empresa/uruwild_logo_white.png" style="position:absolute; right: 5%; bottom: 5%; height: 5%;">  
+      <img src="{{url()}}/imagenes/Empresa/uruwild_logo_white.png" style="position:absolute; right: 5%; bottom: 5%; height: 7%;">  
   
 
 </div>
