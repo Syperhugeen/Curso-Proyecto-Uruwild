@@ -24,7 +24,7 @@
     methods:{
 
     enviar_contacto: function(){
-      var url = 'post_contacto_form';
+      var url = '/post_contacto_form';
 
       var data = {  nombre:this.nombre,
                      email:this.email, 
@@ -50,7 +50,7 @@
      })
           .catch(function (error) {
 
-            app.alerta('Upsss algo salió mal: '+ error,'danger');            
+                     
             
           });
     }
