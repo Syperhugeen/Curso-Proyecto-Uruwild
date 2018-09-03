@@ -35,7 +35,7 @@ class Envio_Formularios_Controller extends Controller
         $manager = new envio_contacto_manager($entidad,$Request->all());
 
 
-        
+        return $manager;
 
         if($Request->ajax())
         {
