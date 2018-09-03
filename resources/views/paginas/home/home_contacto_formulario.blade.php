@@ -30,8 +30,7 @@
                   </button>
                 </div>
                 <div class="form-group" v-show="nombre !='' && email !='' && mensaje !='' ">                
-                    <div v-on:click="enviar_contacto" class="btn btn-primary" value="Enviar"> </div>
-                    <input type="reset" class="btn btn-default" value="Limpiar">               
+                    <div v-on:click="enviar_contacto" class="btn btn-primary" value="Enviar"> Enviar </div>
                 </div>
                 <div id="respuesta" style="display: none;"></div>
 
