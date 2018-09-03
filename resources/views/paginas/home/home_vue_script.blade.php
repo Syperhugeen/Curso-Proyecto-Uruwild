@@ -12,7 +12,7 @@
 <script type="text/javascript">
 
    var app = new Vue({
-    el: '#page-top',    
+    el: '#contact',    
     data:{
 
       nombre:'',
