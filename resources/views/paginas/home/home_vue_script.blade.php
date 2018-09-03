@@ -44,12 +44,12 @@
 
             if(data.Validacion == true)
             {
-              $this.mensaje_enaviado = true;
-              $this.mensaje_luego_de_envio = 'Consulta enviado correctamente, en breve te responderemos a '+ $this.email;
+              this.mensaje_enaviado = true;
+              this.mensaje_luego_de_envio = 'Consulta enviado correctamente, en breve te responderemos a '+ this.email;
             }
             else
             {
-               $this.mensaje_luego_de_envio = 'Algo no está bien, verifica los datos e intenta nuevamente';
+              this.mensaje_luego_de_envio = 'Algo no está bien, verifica los datos e intenta nuevamente';
             }
            
            }).catch(function (error){
