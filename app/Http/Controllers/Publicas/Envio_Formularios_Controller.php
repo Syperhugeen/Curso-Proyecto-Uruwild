@@ -32,8 +32,6 @@ class Envio_Formularios_Controller extends Controller
     public function post_contacto_form(Request $Request)
     {
 
-        if($Request->ajax())
-        {
               
             $Validacion  = true;
 
@@ -43,7 +41,7 @@ class Envio_Formularios_Controller extends Controller
                  ]
            ; 
             
-        }
+       
         
     }
 
