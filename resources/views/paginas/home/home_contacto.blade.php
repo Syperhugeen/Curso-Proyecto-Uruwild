@@ -1,4 +1,4 @@
-<section id="contact">
+<section  v-show="mensaje_enaviado != true" >
       <div class="container">
        {{--  <div class="row">
           <div class="col-lg-8 mx-auto text-center">
@@ -27,3 +27,6 @@
 
        
 </section>
+ <div v-show="mensaje_enaviado == true" class="alert alert-success alert-dismissible fade show" role="alert">
+        <h1 class="text-center alert-success">@{{mensaje_luego_de_envio}}</h1>        
+ </div>
