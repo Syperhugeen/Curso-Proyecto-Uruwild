@@ -24,7 +24,7 @@
   </head>
 
   <body id="page-top">
-   <div id="contact"">
+  
        
    
     <!-- Navigation -->
@@ -56,7 +56,7 @@
     @include('paginas.home.home_vue_script')
     </script> 
 
-   </div>
+  
 
   </body>
 
