@@ -35,7 +35,7 @@ class Envio_Formularios_Controller extends Controller
         $manager = new envio_contacto_manager($entidad,$Request->all());
 
 
-        return $manager;
+        return 'hola';
 
         if($Request->ajax())
         {
@@ -61,8 +61,7 @@ class Envio_Formularios_Controller extends Controller
 
         if ( ($manager->isValid() ) && (!$Request->ajax()) )
         {
-         return redirect()->route('get_home')
-                          ->with('alert' , 'Solicitud de contacto enviada con exíto.');      
+         return 'que pasa aca'      
         }  
 
 
