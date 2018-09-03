@@ -22,7 +22,7 @@
                     <textarea v-model="mensaje" rows="5" cols="30" class="form-control" id="Mensaje" name="Mensaje" placeholder="Introduzca su mensaje" required ></textarea>
                 </div>
                 <div class="form-group" v-show="nombre !='' && email !='' && mensaje !='' ">                
-                    <input type="submit" class="btn btn-primary" value="Enviar">
+                    <div v-on:click="enviar_contacto" class="btn btn-primary" value="Enviar"> </div>
                     <input type="reset" class="btn btn-default" value="Limpiar">               
                 </div>
                 <div id="respuesta" style="display: none;"></div>
@@ -32,7 +32,7 @@
             {!! Form::close() !!}
 
 
-      <div v-show="mensaje_enaviado == true" class="alert alert-success alert-dismissible fade show" role="alert">
+      <div v-show="mensaje_enaviado == 'true'" class="alert alert-success alert-dismissible fade show" role="alert">
         <strong>Holy guacamole!</strong> You should check in on some of those fields below.
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>

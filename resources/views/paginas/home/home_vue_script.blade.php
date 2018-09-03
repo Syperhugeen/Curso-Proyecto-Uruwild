@@ -38,7 +38,7 @@
 
             if(data.Validacion == true)
             {
-
+              $this.mensaje_enaviado = true;
             }
             else
             {
