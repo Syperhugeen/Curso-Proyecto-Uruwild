@@ -36,7 +36,9 @@
 
      axios.post(url,data).then(function (response){
 
-       
+            console.log(response); 
+
+            
             var data = response.data;  
 
 
