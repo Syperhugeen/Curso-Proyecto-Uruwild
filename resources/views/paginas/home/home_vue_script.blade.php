@@ -44,7 +44,7 @@
             }
             else
             {
-
+               $this.mensaje_luego_de_envio = 'Algo no está bien, verifica los datos e intenta nuevamente';
             }
            
      })
