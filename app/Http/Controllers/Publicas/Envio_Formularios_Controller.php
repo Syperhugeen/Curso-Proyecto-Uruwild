@@ -31,17 +31,13 @@ class Envio_Formularios_Controller extends Controller
 
     public function post_contacto_form(Request $Request)
     {
-
               
             $Validacion  = true;
-
-            return 
-                 [ 
+            $array = [ 
                    'Validacion' => $Validacion                  
-                 ]
-           ; 
-            
-       
+                          ];
+
+            return json_encode($array);
         
     }
 
