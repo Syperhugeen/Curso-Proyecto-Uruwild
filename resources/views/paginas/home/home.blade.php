@@ -24,9 +24,7 @@
   </head>
 
   <body id="page-top">
-  
-       
-   
+
     <!-- Navigation -->
     @include('paginas.home.home_nav')
     @include('paginas.home.slider')
@@ -56,7 +54,7 @@
     @include('paginas.home.home_vue_script')
     </script> 
 
-  
+   
 
   </body>
 
