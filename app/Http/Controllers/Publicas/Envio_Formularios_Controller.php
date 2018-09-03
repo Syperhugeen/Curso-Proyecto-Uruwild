@@ -35,11 +35,7 @@ class Envio_Formularios_Controller extends Controller
         $manager = new envio_contacto_manager($entidad,$Request->all());
 
 
-        if ( ($manager->isValid() ) && (!$Request->ajax()) )
-        {
-         return redirect()->route('get_home')
-                          ->with('alert' , 'Solicitud de contacto enviada con exíto.');      
-        }  
+        
 
         if($Request->ajax())
         {
@@ -57,12 +53,17 @@ class Envio_Formularios_Controller extends Controller
 
             return response()->json(
                  [ 
-                    
-                    'Validacion'     => $Validacion                  
+                   'Validacion' => $Validacion                  
                  ]
             ); 
             
         }
+
+        if ( ($manager->isValid() ) && (!$Request->ajax()) )
+        {
+         return redirect()->route('get_home')
+                          ->with('alert' , 'Solicitud de contacto enviada con exíto.');      
+        }  
 
 
         
