@@ -31,25 +31,11 @@ class Envio_Formularios_Controller extends Controller
 
     public function post_contacto_form(Request $Request)
     {
-        $entidad = '';
-        $manager = new envio_contacto_manager($entidad,$Request->all());
-
-
-        return 'hola';
 
         if($Request->ajax())
         {
-
-            if($manager->isValid())
-            {
-              //logica para envio de correo electronico
               
-              $Validacion  = true;
-            }
-            else
-            {              
-              $Validacion  = false;
-            }
+            $Validacion  = true;
 
             return response()->json(
                  [ 
@@ -58,15 +44,6 @@ class Envio_Formularios_Controller extends Controller
             ); 
             
         }
-
-        if ( ($manager->isValid() ) && (!$Request->ajax()) )
-        {
-         return 'que pasa aca'   ;   
-        }  
-
-
-        
-        
         
     }
 
