@@ -28,8 +28,11 @@
 
       var data = {  nombre:this.nombre,
                      email:this.email, 
-                   mensaje:this.mensaje,          
+                   mensaje:this.mensaje         
                  }; 
+
+
+
 
      axios.post(url,data).then(function (response){
 
@@ -47,12 +50,11 @@
                $this.mensaje_luego_de_envio = 'Algo no está bien, verifica los datos e intenta nuevamente';
             }
            
-     })
-          .catch(function (error) {
+           }).catch(function (error){
 
                      
             
-          });
+           });
     }
     },
 
