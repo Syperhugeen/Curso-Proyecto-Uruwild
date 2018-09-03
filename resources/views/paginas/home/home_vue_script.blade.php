@@ -34,9 +34,7 @@
 
 
 
-     axios.post(url,data).then(function (response){
-
-            console.log(response); 
+     axios.post(url,data).then(function (response){           
 
 
             var data = response.data;  
@@ -45,7 +43,7 @@
             if(data.Validacion == true)
             {
               app.mensaje_enaviado = true;
-              app.mensaje_luego_de_envio = 'Consulta enviado correctamente, en breve te responderemos a '+ app.email;
+              app.mensaje_luego_de_envio = 'Consulta enviada correctamente, en breve te responderemos a '+ app.email;
             }
             else
             {

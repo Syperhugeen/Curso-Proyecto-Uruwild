@@ -41,8 +41,5 @@
 
 
       <div v-show="mensaje_enaviado == true" class="alert alert-success alert-dismissible fade show" role="alert">
-        <h1 class="text-center">@{{mensaje_luego_de_envio}}</h1>
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <h1 class="text-center alert-success">@{{mensaje_luego_de_envio}}</h1>        
       </div>
