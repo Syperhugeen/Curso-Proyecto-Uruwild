@@ -21,6 +21,8 @@
         </div> --}}
          {{-- formulario de contacto --}}
        @include('paginas.home.home_contacto_formulario')
+
+      
       </div>
 
        
