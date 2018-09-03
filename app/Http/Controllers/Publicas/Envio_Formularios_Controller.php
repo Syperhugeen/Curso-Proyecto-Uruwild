@@ -35,7 +35,7 @@ class Envio_Formularios_Controller extends Controller
         $manager = new envio_contacto_manager($entidad,$Request->all());
 
 
-        if (($manager->isValid() )&& ( !$Request->ajax()))
+        if ( ($manager->isValid() ) && (!$Request->ajax()) )
         {
          
          
@@ -56,7 +56,7 @@ class Envio_Formularios_Controller extends Controller
             }
             else
             {              
-              $Validacion = false;
+              $Validacion  = false;
             }
 
             return response()->json(
@@ -71,48 +71,12 @@ class Envio_Formularios_Controller extends Controller
 
         
         
-        return redirect()->back()->withErrors($manager->getErrors())->withInput($manager->getData());
+        
     }
 
-    public function post_envio_solicitud_trabajo_form(Request $Request)
-    {
-        
-        $entidad = '';
-        $manager = new envio_solicitud_trabajo_manager($entidad,$Request->all());
+    
 
-
-        if ($manager->isValid())
-        {
-         
-         //envio el email de la solciitud de trabajo
-         $this->EmailsEspecificosDePaginasRepo->EnviarEmailDeSolicitudDeTrabajo($Request);
-
-         return redirect()->route('get_home')
-                          ->with('alert' , 'Solicitud de trabajo enviada correctamente. En breve nos contactaremos con usted. ');      
-        }  
-        
-        return redirect()->back()->withErrors($manager->getErrors())->withInput($manager->getData());
-    }
-
-    public function post_envio_solicitud_cotizacion_proyecto_form(Request $Request)
-    {
-        
-        $entidad = '';
-        $manager = new envio_solicitud_trabajo_manager($entidad,$Request->all());
-
-
-        if ($manager->isValid())
-        {
-         
-         //envio el email de la solciitud de trabajo
-         $this->EmailsEspecificosDePaginasRepo->EnviarEmailDeSolicitudDeCotizacion($Request);
-
-         return redirect()->route('get_home')
-                          ->with('alert' , 'Solicitud de cotización de proyecto enviada correctamente. En breve nos contactaremos con usted. ');      
-        }  
-        
-        return redirect()->back()->withErrors($manager->getErrors())->withInput($manager->getData());
-    }
+   
 
 
 }
