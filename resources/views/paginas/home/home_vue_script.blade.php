@@ -24,7 +24,7 @@
     methods:{
 
     enviar_contacto: function(){
-      var url = '/post_contacto_form';
+      var url = 'http://uruwild.simbiontecreativo.com/post_contacto_form';
 
       var data = {  nombre:this.nombre,
                      email:this.email, 
@@ -38,7 +38,7 @@
 
             console.log(response); 
 
-            
+
             var data = response.data;  
 
 
