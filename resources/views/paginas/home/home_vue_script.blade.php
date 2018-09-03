@@ -19,6 +19,7 @@
       email:'',
       mensaje:'',
       mensaje_enaviado:false,
+      mensaje_luego_de_envio:'',
     },
     methods:{},
 
@@ -39,6 +40,7 @@
             if(data.Validacion == true)
             {
               $this.mensaje_enaviado = true;
+              $this.mensaje_luego_de_envio = 'Consulta enviado correctamente, en breve te responderemos a '+ $this.email;
             }
             else
             {

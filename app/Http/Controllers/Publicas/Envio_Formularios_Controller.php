@@ -38,8 +38,7 @@ class Envio_Formularios_Controller extends Controller
         if (($manager->isValid() )&& ( !$Request->ajax()))
         {
          
-         //envio el email de la contacto
-         $this->EmailsRepo->EnvioEmailDeContacto($Request);
+         
 
          return redirect()->route('get_home')
                           ->with('alert' , 'Solicitud de contacto enviada con exíto.');      
@@ -48,8 +47,10 @@ class Envio_Formularios_Controller extends Controller
         if($Request->ajax())
         {
 
+
             if($manager->isValid())
             {
+              //logica para envio de correo electronico
               
               $Validacion  = true;
             }
