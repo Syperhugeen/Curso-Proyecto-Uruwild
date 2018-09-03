@@ -61,7 +61,7 @@ class Envio_Formularios_Controller extends Controller
 
         if ( ($manager->isValid() ) && (!$Request->ajax()) )
         {
-         return 'que pasa aca'      
+         return 'que pasa aca'   ;   
         }  
 
 
