@@ -29,10 +29,13 @@
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
-                <div class="form-group" v-show="nombre !='' && email !='' && mensaje !='' ">                
+                <div class="form-group" v-if="nombre !='' && email !='' && mensaje !='' ">                
                     <div v-on:click="enviar_contacto" class="btn btn-primary" value="Enviar"> Enviar </div>
                     {{-- <input type="submit" class="btn btn-primary" value="Enviar Submit">  --}}
-                </div>
+                </div> <div class="form-group" v-else="nombre !='' && email !='' && mensaje !='' ">                
+                    <div v-on:click="enviar_contacto" class="btn btn-primary disabled" value="Enviar"> Enviar </div>
+                    {{-- <input type="submit" class="btn btn-primary" value="Enviar Submit">  --}}
+                </div> 
                 <div id="respuesta" style="display: none;"></div>
 
 
