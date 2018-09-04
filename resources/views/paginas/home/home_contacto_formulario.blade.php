@@ -40,6 +40,8 @@
             {!! Form::close() !!}
 
 
-      <div v-show="mensaje_enaviado == true" class="alert alert-success alert-dismissible fade show" role="alert">
-        <h1 class="text-center alert-success">@{{mensaje_luego_de_envio}}</h1>        
+      <div v-show="mensaje_enaviado == true" class="bg-primary py-6" role="alert">
+        <h2 class="text-center text-white"><span class="glyphicon glyphicon-ok-circle"></span> </h2> 
+        <br>
+        <h2 class="text-center text-white">@{{mensaje_luego_de_envio}}</h2>        
       </div>
