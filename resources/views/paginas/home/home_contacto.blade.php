@@ -1,5 +1,5 @@
 <section id="contact">
-      <div class="container">
+      <div class="">
        {{--  <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Let's Get In Touch!</h2>
