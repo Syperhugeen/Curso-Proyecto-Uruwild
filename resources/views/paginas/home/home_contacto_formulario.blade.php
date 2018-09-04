@@ -1,7 +1,7 @@
              {!! Form::open( ['route'   => $Route,
                              'method'   => 'Post',
                              'files'    => true,
-                             'class'    => 'col-lg-8 mx-auto text-center',
+                             'class'    => 'col-lg-8 mx-auto text-center get_width_100',
                              'v-show'   => "mensaje_enaviado != true"
                            
                             ])               !!}
@@ -43,7 +43,7 @@
             {!! Form::close() !!}
 
 
-      <div v-show="mensaje_enaviado == true" class="bg-primary p-8 get_width_100" role="alert">
+      <div v-show="mensaje_enaviado == true" class="bg-primary p-5 get_width_100" role="alert">
         <h2 class="text-center text-white"><span class="fa fa-check-circle"></span> </h2> 
         <br>
         <h2 class="text-center text-white">@{{mensaje_luego_de_envio}}</h2>        
