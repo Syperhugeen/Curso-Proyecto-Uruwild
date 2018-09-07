@@ -37,7 +37,9 @@ class Envio_Formularios_Controller extends Controller
             $mensaje = $Request->get('mensaje');
 
             $Validacion  = false;
-            if(($name != '') && (filter_var($email, FILTER_VALIDATE_EMAIL)) && ($mensaje != ''))
+
+
+            if(filter_var($email, FILTER_VALIDATE_EMAIL))
             {
                 $Validacion  = true;
             }
