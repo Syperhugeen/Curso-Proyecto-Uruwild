@@ -1,5 +1,5 @@
 
-<div style="width:500px;">
+<div style="width:500px; margin:0 auto;">
   
 
 <br>
@@ -11,9 +11,9 @@
 <br>
 <br>
 <br>
-
+<div style="text-align: center;"> <strong>Mensaje</strong></div>
 <div style="padding: 10px; border-radius: 4px; background-color: #f8f8f8; text-align: center;" >
-  {{$mensaje}}
+ "" {{$mensaje}} ""
 </div>
 
 <br>
