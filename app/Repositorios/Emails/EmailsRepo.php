@@ -76,7 +76,7 @@ class EmailsRepo
 
                    //con esta funcion le envia los datos a la vista.
                    compact('nombre' , 'email','mensaje')       ,
-                   function($m) use ($nombre,$email,$nombre_empresa) 
+                   function($m) use ($nombre,$email,$email_de_empresa,$nombre_empresa) 
                    {
 
                      $m->from($email, $nombre);
