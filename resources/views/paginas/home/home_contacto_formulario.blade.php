@@ -12,15 +12,15 @@
 
                <div class="form-group">
                     <label class="control-label" for="Nombre">Nombres</label>
-                    <input v-model="nombre" type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Introduzca su nombre" required  />
+                    <input v-model="nombre" type="text" class="form-control" id="Nombre" name="name" placeholder="Introduzca su nombre" required  />
                 </div>               
                 <div class="form-group">
                     <label class="control-label" for="Correo">Dirección de Correo Electrónico</label>
-                    <input v-model="email" type="email" class="form-control" id="Correo" name="Correo" placeholder="Introduzca su correo electrónico" required />
+                    <input v-model="email" type="email" class="form-control" id="Correo" name="email" placeholder="Introduzca su correo electrónico" required />
                 </div>
                 <div class="form-group">
                     <label class="control-label" for="Mensaje">Mensaje</label>
-                    <textarea v-model="mensaje" rows="5" cols="30" class="form-control" id="Mensaje" name="Mensaje" placeholder="Introduzca su mensaje" required ></textarea>
+                    <textarea v-model="mensaje" rows="5" cols="30" class="form-control" id="Mensaje" name="mensaje" placeholder="Introduzca su mensaje" required ></textarea>
                 </div>
 
                 <div v-show="mensaje_luego_de_envio != '' && mensaje_enaviado != true" class="alert alert-warning alert-dismissible fade show" role="alert">
