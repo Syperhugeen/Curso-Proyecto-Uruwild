@@ -33,7 +33,7 @@ class Envio_Formularios_Controller extends Controller
     {
 
             $Name    = $Request->get('nombre');
-            $Email   = $Request->get('email'),
+            $Email   = $Request->get('email');
             $Mensaje = $Request->get('mensaje');
 
             $manajer     = new envio_contacto_manager(null, $Request->all());
