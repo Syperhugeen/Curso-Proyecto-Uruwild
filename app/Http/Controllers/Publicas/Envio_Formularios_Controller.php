@@ -31,11 +31,25 @@ class Envio_Formularios_Controller extends Controller
 
     public function post_contacto_form(Request $Request)
     {
+
+            $Name    = $Request->get('nombre');
+            $Email   = $Request->get('email'),
+            $Mensaje = $Request->get('mensaje');
+
+            $manajer = new envio_contacto_manager(null, $Request->all());
+            $Validacion  = false;
+
+            if($manajer->isValid())
+            {
+                $this->EmailsRepo->EnvioEmailDeContacto($Name, $Email, $Mensaje, 'contacto@uruwild.com', 'Uruwild')
               
-            $Validacion  = true;
+                $Validacion  = true;
+            }
+
+            
             $array = [ 
                    'Validacion' => $Validacion                  
-                          ];
+                     ];
 
             return json_encode($array);
         
