@@ -36,7 +36,7 @@ class Envio_Formularios_Controller extends Controller
             $Email   = $Request->get('email'),
             $Mensaje = $Request->get('mensaje');
 
-            $manajer = new envio_contacto_manager(null, $Request->all());
+            $manajer     = new envio_contacto_manager(null, $Request->all());
             $Validacion  = false;
 
             if($manajer->isValid())
