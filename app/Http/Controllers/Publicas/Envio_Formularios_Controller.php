@@ -38,7 +38,7 @@ class Envio_Formularios_Controller extends Controller
 
             $Validacion  = false;
 
-            dd(filter_var($email, FILTER_VALIDATE_EMAIL));
+            dd(filter_var($email, FILTER_VALIDATE_EMAIL),$email);
 
             if(filter_var($email, FILTER_VALIDATE_EMAIL))
             {
