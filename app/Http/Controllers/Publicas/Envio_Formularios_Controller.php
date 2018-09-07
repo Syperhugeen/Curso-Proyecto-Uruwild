@@ -36,19 +36,19 @@ class Envio_Formularios_Controller extends Controller
             $email   = $Request->get('email');
             $mensaje = $Request->get('mensaje');
 
-
-            return $Request->json()->all();
-            
-            $manajer     = new envio_contacto_manager(null, $Request->json()->all());
             $Validacion  = false;
+            if(($name != '') && (filter_var($email, FILTER_VALIDATE_EMAIL)) && ($mensaje != ''))
+            {
+                $Validacion  = true;
+            }
+            
 
-             dd($manajer,$Request->json()->all());
+            
 
-            if($manajer->isValid())
+            if($Validacion == true)
             {
                 $this->EmailsRepo->EnvioEmailDeContacto($name, $email, $mensaje, 'contacto@uruwild.com', 'Uruwild');
-              
-                $Validacion  = true;
+                
             }
 
             
