@@ -38,7 +38,7 @@ class Envio_Formularios_Controller extends Controller
 
             $Validacion  = false;
 
-            dd(filter_var($email, FILTER_VALIDATE_EMAIL),$email);
+            
 
             if(filter_var($email, FILTER_VALIDATE_EMAIL))
             {
@@ -56,7 +56,10 @@ class Envio_Formularios_Controller extends Controller
 
             
             $array = [ 
-                   'Validacion' => $Validacion                  
+                   'Validacion' => $Validacion,
+                   'name'       => $name, 
+                   'email'      => $email,  
+                   'mensaje'    => $mensaje                 
                      ];
 
             return json_encode($array);
