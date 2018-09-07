@@ -31,10 +31,10 @@
                 </div>
                 <div class="form-group" v-if="nombre !='' && email !='' && mensaje !='' ">                
                     <div v-on:click="enviar_contacto" class="btn btn-primary" value="Enviar"> Enviar </div>
-                    {{-- <input type="submit" class="btn btn-primary" value="Enviar Submit">  --}}
+                    <input type="submit" class="btn btn-primary" value="Enviar Submit"> 
                 </div> <div class="form-group" v-else="nombre !='' && email !='' && mensaje !='' ">                
                     <a class="btn  disabled" value="Enviar"> Enviar </a>
-                    <input type="submit" class="btn btn-primary" value="Enviar Submit"> 
+                    
                 </div> 
                 <div id="respuesta" style="display: none;"></div>
 
