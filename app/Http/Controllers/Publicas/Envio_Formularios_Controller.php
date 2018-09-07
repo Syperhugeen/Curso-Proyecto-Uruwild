@@ -38,10 +38,10 @@ class Envio_Formularios_Controller extends Controller
 
 
 
-            $manajer     = new envio_contacto_manager(null, $Request->all());
+            $manajer     = new envio_contacto_manager(null, $Request->json()->all());
             $Validacion  = false;
 
-             dd($manajer,$Request);
+             dd($manajer,$Request->json()->all());
 
             if($manajer->isValid())
             {
