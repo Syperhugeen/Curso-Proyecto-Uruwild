@@ -38,6 +38,7 @@ class Envio_Formularios_Controller extends Controller
 
 
             return $Request->json()->all();
+            
             $manajer     = new envio_contacto_manager(null, $Request->json()->all());
             $Validacion  = false;
 
