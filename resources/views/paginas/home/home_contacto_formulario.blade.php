@@ -12,7 +12,7 @@
 
                <div class="form-group">
                     <label class="control-label" for="Nombre">Nombres</label>
-                    <input v-model="nombre" type="text" class="form-control" id="Nombre" name="name" placeholder="Introduzca su nombre" required  />
+                    <input v-model="nombre" type="text" class="form-control" id="Nombre" name="nombre" placeholder="Introduzca su nombre" required  />
                 </div>               
                 <div class="form-group">
                     <label class="control-label" for="Correo">Dirección de Correo Electrónico</label>
