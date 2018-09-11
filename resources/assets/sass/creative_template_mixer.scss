@@ -29,6 +29,12 @@
     @include align-items(center); 
 }
 
+.flex-row-column{
+  @include flexbox;       
+    @include flex-direction(column);
+    @include align-items(center); 
+}
+
 .flex-justifice-space-around{
   @include justify-content(space-around);
 }
