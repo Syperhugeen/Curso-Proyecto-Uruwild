@@ -1,7 +1,7 @@
  <section class="padding-xl" style="background-color:#30302f;">
        
           <div class="get_width_100 flex-row-center flex-justifice-space-around flex-wrap">
-             <div class=" text-center contenedor-columna-footer Helper-OrdenarHijos-Row">
+             <div class="get_width_100 text-center contenedor-columna-footer Helper-OrdenarHijos-Row">
               <div class=" flex-row-center flex-justifice-space-around">
                 <img src="{{url()}}/imagenes/Empresa/uruwild_logo_white.png" class="logo-footer">
               </div>
