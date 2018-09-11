@@ -11,9 +11,13 @@
               <p class="color-text-gris espacio-letras small"><i class="fa fa-envelope"></i> contacto@uruwild.com</p>
              
                <div class="mx-auto mt-4">
-                <span class="col-md-4 mx-auto "><a href=""> <div class="footer_social_icon_facebook iconos-tamano"></div>  </a></span>
+                 <div class="footer_social_icon_facebook iconos-tamano"></div>
+                 <div class="footer_social_icon_instagram iconos-tamano"></div>
+                 <div class="footer_social_icon_twitter iconos-tamano"></div>
+
+              {{--   <span class="col-md-4 mx-auto "><a href=""> <div class="footer_social_icon_facebook iconos-tamano"></div>  </a></span>
                 <span class="col-md-4 mx-auto "><a href=""> <div class="footer_social_icon_instagram iconos-tamano"></div> </a></span>
-                <span class="col-md-4 mx-auto "><a href=""> <div class="footer_social_icon_twitter iconos-tamano"></div> </a></span>
+                <span class="col-md-4 mx-auto "><a href=""> <div class="footer_social_icon_twitter iconos-tamano"></div> </a></span> --}}
                 </div>
 
               </div>
