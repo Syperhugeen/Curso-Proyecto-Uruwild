@@ -13,8 +13,8 @@
              
 
     <div class="col-md-6 mx-auto mt-4">
-        <span class="col-md-4 mx-auto"><a href=""> <img class="" src="{{url()}}/imagenes/Iconos/social_icon_facebook1.png">  </a></span>
-        <span class="col-md-4 mx-auto"><a href=""> <img class="" src="{{url()}}/imagenes/Iconos/social_icon_instagram1.png">  </a></span>
-        <span class="col-md-4 mx-auto"><a href=""> <img class="" src="{{url()}}/imagenes/Iconos/social_icon_twitter1.png">  </a></span>
+        <span class="col-md-4 mx-auto"><a href=""> <img class="mi-float-up iconos-tamano" src="{{url()}}/imagenes/Iconos/social_icon_facebook1.png">  </a></span>
+        <span class="col-md-4 mx-auto"><a href=""> <img class="mi-float-up iconos-tamano" src="{{url()}}/imagenes/Iconos/social_icon_instagram1.png">  </a></span>
+        <span class="col-md-4 mx-auto"><a href=""> <img class="mi-float-up iconos-tamano" src="{{url()}}/imagenes/Iconos/social_icon_twitter1.png">  </a></span>
     </div>         
 

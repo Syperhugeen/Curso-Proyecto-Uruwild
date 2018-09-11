@@ -55,9 +55,76 @@
   border-left:none;
 }
 
+
+              .mi-float-up{
+               -webkit-transition: all .3s ease;
+               -moz-transition: all .3s ease;
+               transition: all .3s ease;
+              }
+              .mi-float-up:hover{
+               -webkit-transform: translate(0, -10px);
+               -moz-transform: translate(0, -10px);
+               transform: translate(0, -10px);
+               }
+
+              /* estilo cambia footer */
+              .footer_social_icon_facebook{
+              width: 40px;
+              height: 40px;
+              background-image: url('../../imagenes/Iconos/social_icon_facebook3.png');
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              }
+
+              .footer_social_icon_facebook:hover { 
+               background-image: url('../../imagenes/Iconos/social_icon_facebook4.png');
+              }
+
+              /* estilo cambia footer */
+              .footer_social_icon_instagram{
+              width: 40px;
+              height: 40px;
+              background-image: url('../../imagenes/Iconos/social_icon_instagram3.png');
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              }
+
+              .footer_social_icon_instagram:hover { 
+               background-image: url('../../imagenes/Iconos/social_icon_instagram4.png');
+              }
+              /* estilo cambia footer */
+              .footer_social_icon_twitter{
+              width: 40px;
+              height: 40px;
+              background-image: url('../../imagenes/Iconos/social_icon_twitter3.png');
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              }
+
+              .footer_social_icon_twitter:hover { 
+               background-image: url('../../imagenes/Iconos/social_icon_twitter4.png');
+              }
+
+
+              /* P R E L O A D I N G O N - H O V E R I M A G E S to speed up the effect */
+              body::after{
+              position:absolute; width:0; height:0; overflow:hidden; z-index:-1000;
+              content:url('../../imagenes/Iconos/social_icon_facebook4.png')
+                      url('../../imagenes/Iconos/social_icon_instagram4.png') 
+                      url('../../imagenes/Iconos/social_icon_twitter4.png');
+              }
+
 .iconos-custom{
  padding: 20px;
  height: 130px;
+}
+
+.iconos-tamano{
+  width:40px;
+  height:auto;
 }
 
 .img-slider-size{
