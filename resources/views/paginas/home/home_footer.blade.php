@@ -10,7 +10,7 @@
               <p class="color-text-gris espacio-letras small"> <i class="fa fa-phone-square"></i> 099 123 456</p>
               <p class="color-text-gris espacio-letras small"><i class="fa fa-envelope"></i> contacto@uruwild.com</p>
              
-               <div class="mx-auto mt-4 flex-row-center flex-justifice-space-around">
+               <div class="mx-auto mt-4 flex-row-center flex-justifice-space-around" style="width:220px;">
                  <div class="footer_social_icon_facebook "></div>
                  <div class="footer_social_icon_instagram "></div>
                  <div class="footer_social_icon_twitter "></div>
