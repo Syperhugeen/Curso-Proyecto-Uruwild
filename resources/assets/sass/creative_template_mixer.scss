@@ -71,9 +71,9 @@
 }
 
 .border-switch{
-  border-top: solid 1px #575555;  
-  border-left:none;
-}
+        border-top: solid 1px #575555;
+        border-bottom:  solid 1px #575555;
+      }
 
 
               .mi-float-up{
@@ -185,10 +185,7 @@
   display:none;
 }
 
-.border-switch{
-        border-top: solid 1px #575555;
-        border-bottom:  solid 1px #575555;
-      }
+
 
 }
 
