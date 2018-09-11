@@ -23,6 +23,16 @@
     @include align-items(center); 
 }
 
+.flex-row-center{
+  @include flexbox;       
+    @include flex-direction(row);
+    @include align-items(center); 
+}
+
+.flex-justifice-space-around{
+  @include justify-content(space-around);
+}
+
 .get_width_100{
   width:100%;
 }
