@@ -151,6 +151,11 @@
 }
 
 
+.contenedor-columna-footer{
+  padding:40px;
+}
+
+
 @media (max-width: 768px) {
 
       .texto-centrado-personalizado{
@@ -198,4 +203,32 @@ a:hover, a:focus, a>p:hover, a>p:focus{
  p{
   font-family: 'Roboto', sans-serif;
  }
+
+
+
+@media (min-width: 767px){
+
+.contenedor-columna-footer{
+  padding:10px;
+}
+
+
+
+}
+
+@media (min-width: 991px){
+
+.contenedor-columna-footer{
+  padding:40px;
+}
+
+  
+}
+
+@media (min-width: 1200px){
+
+
+
+  
+}
 
