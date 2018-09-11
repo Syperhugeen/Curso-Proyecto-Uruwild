@@ -28,7 +28,7 @@
 
               
             </div> 
-            <div class="  text-center contenedor-columna-footer border-switch Helper-OrdenarHijos-Row" style="height:100%;">
+            <div class="  text-center contenedor-columna-footer Helper-OrdenarHijos-Row" style="height:100%;">
               <div class="get_width_100">
                 <p class="color-text-gris espacio-letras small">URUWILD&#x24B8;2018</p>
                 <p class="color-text-gris espacio-letras small">Fotografía: Pablo Donagaray</p>
