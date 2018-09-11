@@ -7,10 +7,10 @@
             </div>
             
           </div>
-          <div class="col-lg-8 mx-auto padding-xl flex-row-center flex-justifice-space-around get_height_100">
-            <div class="get_width_100">
+          <div class="col-lg-8 mx-auto padding-xl flex-row-center flex-justifice-space-around">
+            <div class="get_width_100 get_height_100">
                <h2 class="section-heading text-white  texto-MORETHANFISHING texto-MORETHANFISHING-titulo">#MORETHANFISHING</h2>            
-                <p class="text-white mb-4 texto-MORETHANFISHING">Ofrecemos una experiencia innovadora y diferente en ecoturismo y en pesca deportiva. Exploramos constantemente nuestros ríos y arroyos para conocer y acercarte a las mejores locaciones, teniendo en cuenta su belleza paisajística, su biodiversidad, y la posibilidad de tener una experiencia altamente dinámica e interactiva con el entorno natural.
+                <p class="text-white texto-MORETHANFISHING">Ofrecemos una experiencia innovadora y diferente en ecoturismo y en pesca deportiva. Exploramos constantemente nuestros ríos y arroyos para conocer y acercarte a las mejores locaciones, teniendo en cuenta su belleza paisajística, su biodiversidad, y la posibilidad de tener una experiencia altamente dinámica e interactiva con el entorno natural.
                 </p>
             </div>
            
