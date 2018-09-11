@@ -5874,6 +5874,7 @@ button.close {
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
+  min-height:100vh;//agregado por mi
 }
 
 .carousel-item.active,
@@ -6040,7 +6041,7 @@ button.close {
 }
 
 .carousel-caption {
-  position: absolute;
+  /* position: absolute;
   right: 15%;
   bottom: 20px;
   left: 15%;
@@ -6048,7 +6049,19 @@ button.close {
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
-  text-align: center;
+  text-align: center; */
+
+    position: absolute;
+    top: 0;
+    /* bottom: 20px; */
+    /* left: 15%; */
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    min-height: 100%;
 }
 
 .align-baseline {

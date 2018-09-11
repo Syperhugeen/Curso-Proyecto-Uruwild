@@ -61,29 +61,28 @@ class EmailsRepo
     
 
 
-    /**
+    
+
+
+     /**
      * Email De Contacto
      */
-    public function EnvioEmailDeContacto($Request)               
+    public function EnvioEmailDeContacto($nombre,$email,$mensaje,$email_de_empresa,$nombre_empresa)               
     {
-         $nombre   = $Request->get('name');
-         $email    = $Request->get('email');
-         $mensaje  = $Request->get('mensaje');
-         $telefono = $Request->get('telefono');
+        
+         
 
          Mail::send('emails.solicitud_contacto' ,
 
                    //con esta funcion le envia los datos a la vista.
-                   compact('nombre' , 'email','mensaje','telefono')       ,
-                   function($m) use ($nombre,$email) 
+                   compact('nombre' , 'email','mensaje')       ,
+                   function($m) use ($nombre,$email,$email_de_empresa,$nombre_empresa) 
                    {
 
                      $m->from($email, $nombre);
 
-                     $m->to( $this->getEmpresa()
-                                  ->email, 
-                             $this->getEmpresa()
-                                  ->name)->subject('Consulta de '.$nombre );
+                     $m->to( $email_de_empresa, 
+                             $nombre_empresa)->subject('Consulta de '.$nombre );
                    }
          );
 
