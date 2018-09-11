@@ -12,4 +12,64 @@
 @import "resources/assets/sass/template_Creative/_portfolio";
 @import "resources/assets/sass/template_Creative/_bootstrap-overrides";
 @import "resources/assets/sass/template_Creative/font-awesome/scss/font-awesome";
-@import "resources/assets/sass/template_Creative/magnific-popup";  
+@import "resources/assets/sass/template_Creative/magnific-popup"; 
+@import "resources/assets/sass/template_Creative/_paddin-margin"; 
+
+@import "resources/assets/sass/Plugins/Plug-flex";
+//clases personalizadas para cada trabajo
+.contenedor-baner-img-tex-html{
+    @include flexbox;       
+    @include flex-direction(row);
+    @include align-items(center); 
+}
+
+.get_width_100{
+  width:100%;
+}
+
+
+/* colores personalizados */
+.color-text-gris{
+  color: #b4b4b4;
+}
+
+.mostrar-cabecera-destop{
+  display:none;
+}
+
+.ocultar-cabecera-mobil{
+  display:block;
+}
+
+.border-switch{
+  border-top: solid 1px #575555;  
+  border-left:none;
+}
+
+
+@media (max-width: 990px) {
+
+      .texto-centrado-personalizado{
+              text-align: center;
+       } 
+
+      
+}
+
+@media (min-width: 990px) {  
+.mostrar-cabecera-destop{
+  display:block;
+}
+
+
+.ocultar-cabecera-mobil{
+  display:none;
+}
+
+.border-switch{
+        border-top: none;
+        border-left:  solid 1px #575555;
+      }
+
+}
+
