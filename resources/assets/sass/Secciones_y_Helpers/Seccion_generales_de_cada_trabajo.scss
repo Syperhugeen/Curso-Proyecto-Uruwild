@@ -94,17 +94,17 @@
 }
 
 
-
-
-
-@media (max-width: 768px) {
-
-      .texto-centrado-personalizado{
-              text-align: center;
-       } 
-
-      
+.logo-MORETHANFISHING{
+  width:100px;
+  height:auto;
 }
+
+.texto-MORETHANFISHING{
+  text-align: center;
+} 
+
+
+
 
 @media (min-width: 768px) {  
 .mostrar-cabecera-destop{
@@ -121,23 +121,37 @@
 }
 
 
-/* ajustes de Erni */
-p, h1, h2, h3, h4, h5, h6 {
- cursor: default;
- text-decoration: none;
- } 
 
-a, a p, a h1, a h2, a h3, a h4, a h5, a h6 {
- cursor: pointer; cursor: hand;
- text-decoration: none;
- outline:none;
+
+
+@media (min-width: $BrackPoint-Primario){
+
+  .logo-MORETHANFISHING{
+  width:130px;
+  
+  }
+
+   
 }
 
-a:hover, a:focus, a>p:hover, a>p:focus{
- text-decoration:none;
- outline:none;
- }
+@media (min-width: $BrackPoint-Secundario){
 
- p{
-  font-family: 'Roboto', sans-serif;
- }
+  .logo-MORETHANFISHING{
+  width:150px;
+  }
+
+  .texto-MORETHANFISHING{
+    text-align: left;
+  }
+
+  
+}
+
+@media (min-width: $BrackPoint-Tercer){
+
+
+
+  
+}
+
+
