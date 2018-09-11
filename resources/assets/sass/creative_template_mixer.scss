@@ -137,6 +137,38 @@
                       url('../../imagenes/Iconos/social_icon_twitter4.png');
               }
 
+
+
+              /*  * * * * E F E C T O S   E S P E C I A L E S  - -
+               - - P A R A L L A X   S C R O L L I N G * * * * * */
+              .parallax_section1 { 
+                  /* The image used */
+                  background-image: url("http://uruwild.simbiontecreativo.com/imagenes/Slider/uruwild_section_foto1.jpg");
+
+                  /* Set a specific height */
+                  height: 100vh; 
+
+                  /* Create the parallax scrolling effect */
+                  background-attachment: fixed;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+              } 
+              .parallax_section2 { 
+                  /* The image used */
+                  background-image: url(" http://uruwild.simbiontecreativo.com/imagenes/Slider/uruwild_section_foto2.jpg");
+
+                  /* Set a specific height */
+                  height: 100vh; 
+
+                  /* Create the parallax scrolling effect */
+                  background-attachment: fixed;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+              }
+
+
 .iconos-custom{
  padding: 20px;
  height: 130px;

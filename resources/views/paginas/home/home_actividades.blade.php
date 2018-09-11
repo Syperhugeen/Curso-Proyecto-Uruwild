@@ -2,9 +2,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Actividades</h2>
+            <h2 class="section-heading">La experiencia URUWILD</h2>
             <hr class="my-4">
-            <h4 class="text-muted mb-4">Nos adaptamos a las preferencias y gustos de nuestros clientes</h4>
+            <h4 class="text-muted mb-4">Actividades para disfrutar en la naturaleza</h4>
           </div>
         </div>
       </div>
