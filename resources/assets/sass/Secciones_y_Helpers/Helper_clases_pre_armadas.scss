@@ -1,0 +1,23 @@
+.flex-row-center{
+  @include flexbox;       
+  @include flex-direction(row);
+  @include align-items(center); 
+}
+
+.flex-row-column{
+  @include flexbox;       
+  @include flex-direction(column);
+  @include align-items(center); 
+}
+
+.flex-justifice-space-around{
+  @include justify-content(space-around);
+}
+
+.flex-wrap{
+  @include flex-wrap(wrap); 
+}
+
+.get_width_100{
+  width:100%;
+}
