@@ -1,5 +1,5 @@
 
-<div  class="{{-- masthead --}} get_width_100 mostrar-cabecera-destop"  >
+<div  class="{{-- masthead --}} get_width_100 "  >
   
 <div id="carouselExampleIndicators" class="carousel slide auto" data-ride="carousel" data-interval="5000">
   <ol class="carousel-indicators">
