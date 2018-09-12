@@ -4,13 +4,23 @@
 
 .Slider_cabecera_caption_sub_titulo{
   font-size: 1rem;
+}  
+
+.Slider_cabecera_caption_logo{
+  position:absolute; 
+  right: 5%; 
+  bottom: 5%; 
+  height: 50px;
+  width:auto;
 }
 
 
 
 @media (min-width: $BrackPoint-Primario){
 
-
+.Slider_cabecera_caption_logo{  
+  height: 60px;  
+}
 
    
 }
@@ -22,6 +32,10 @@
 
 .Slider_cabecera_caption_sub_titulo{
   font-size: 2rem;
+}
+
+.Slider_cabecera_caption_logo{  
+  height: 70px;  
 }
  
 
