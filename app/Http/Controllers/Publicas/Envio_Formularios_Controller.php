@@ -31,65 +31,44 @@ class Envio_Formularios_Controller extends Controller
 
     public function post_contacto_form(Request $Request)
     {
-        $entidad = '';
-        $manager = new envio_contacto_manager($entidad,$Request->all());
 
+            $name    = $Request->get('nombre');
+            $email   = $Request->get('email');
+            $mensaje = $Request->get('mensaje');
 
-        if ($manager->isValid())
-        {
-         
-         //envio el email de la contacto
-         $this->EmailsRepo->EnvioEmailDeContacto($Request);
+            $Validacion  = false;
 
-         return redirect()->route('get_home')
-                          ->with('alert' , 'Solicitud de contacto enviada con exíto.');      
-        }  
+            
 
+            if(filter_var($email, FILTER_VALIDATE_EMAIL))
+            {
+                $Validacion  = true;
+            }
+            
 
+            
+
+            if($Validacion == true)
+            {
+                $this->EmailsRepo->EnvioEmailDeContacto($name, $email, $mensaje, 'contacto@uruwild.com', 'Uruwild');
+                
+            }
+
+            
+            $array = [ 
+                   'Validacion' => $Validacion,
+                   'name'       => $name, 
+                   'email'      => $email,  
+                   'mensaje'    => $mensaje                 
+                     ];
+
+            return json_encode($array);
         
-        
-        return redirect()->back()->withErrors($manager->getErrors())->withInput($manager->getData());
     }
 
-    public function post_envio_solicitud_trabajo_form(Request $Request)
-    {
-        
-        $entidad = '';
-        $manager = new envio_solicitud_trabajo_manager($entidad,$Request->all());
+    
 
-
-        if ($manager->isValid())
-        {
-         
-         //envio el email de la solciitud de trabajo
-         $this->EmailsEspecificosDePaginasRepo->EnviarEmailDeSolicitudDeTrabajo($Request);
-
-         return redirect()->route('get_home')
-                          ->with('alert' , 'Solicitud de trabajo enviada correctamente. En breve nos contactaremos con usted. ');      
-        }  
-        
-        return redirect()->back()->withErrors($manager->getErrors())->withInput($manager->getData());
-    }
-
-    public function post_envio_solicitud_cotizacion_proyecto_form(Request $Request)
-    {
-        
-        $entidad = '';
-        $manager = new envio_solicitud_trabajo_manager($entidad,$Request->all());
-
-
-        if ($manager->isValid())
-        {
-         
-         //envio el email de la solciitud de trabajo
-         $this->EmailsEspecificosDePaginasRepo->EnviarEmailDeSolicitudDeCotizacion($Request);
-
-         return redirect()->route('get_home')
-                          ->with('alert' , 'Solicitud de cotización de proyecto enviada correctamente. En breve nos contactaremos con usted. ');      
-        }  
-        
-        return redirect()->back()->withErrors($manager->getErrors())->withInput($manager->getData());
-    }
+   
 
 
 }

@@ -1,12 +1,21 @@
+
+<div style="width:500px; margin:0 auto;">
+  
+
 <br>
+<div style="text-align: center;">
+  Solicitud de contacto de <strong>{{$nombre}} </strong>({{$email}})
+</div>
 
-Solicitud de contacto de {{$nombre}} ({{$email}} / {{$telefono}})
 
 <br>
-
-<div style="padding: 10px; border-radius: 4px; background-color: #f8f8f8;" >
-  {{$mensaje}}
+<br>
+<br>
+<div style="text-align: center;"> <strong>Mensaje</strong></div>
+<div style="padding: 10px; border-radius: 4px; background-color: #f8f8f8; text-align: center;" >
+ "" {{$mensaje}} ""
 </div>
 
 <br>
+</div>
 

@@ -1,6 +1,6 @@
 <section id="contact">
-      <div class="container">
-        <div class="row">
+      <div class="">
+       {{--  <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Let's Get In Touch!</h2>
             <hr class="my-4">
@@ -18,9 +18,12 @@
               <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
             </p>
           </div>
-        </div>
+        </div> --}}
+         {{-- formulario de contacto --}}
+       @include('paginas.home.home_contacto_formulario')
+
+      
       </div>
 
-        {{-- formulario de contacto --}}
-       @include('paginas.home.home_contacto_formulario')
+       
 </section>

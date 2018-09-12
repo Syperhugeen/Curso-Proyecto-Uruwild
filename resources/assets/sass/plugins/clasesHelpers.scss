@@ -10,7 +10,7 @@
   font-size: 0.8em;
 }
 
-.Helper-Fuente-10px{
+.Helper-Fuente-10px_{
   font-size: 10px;
 }
 
@@ -21,7 +21,7 @@
 .Helper-OrdenarHijos-Row{
     @include flexbox;       
     @include flex-direction(row);
-    @include align-items(center);
+    @include align-items(center); 
     
 }
 
