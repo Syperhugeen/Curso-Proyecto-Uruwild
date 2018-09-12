@@ -32,14 +32,4 @@
  
 </div>
 
-<div class="get_width_100 ocultar-cabecera-mobil">
-  
 
- <header class="masthead text-center text-white d-flex">
-      <div class="container my-auto">
-        <div class="row">
-          @include('paginas.home.slider_texto_present')
-        </div>
-      </div>
-    </header>
-</div>    
