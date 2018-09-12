@@ -29,20 +29,17 @@
     @include('paginas.home.home_nav')
     @include('paginas.home.slider')
     @include('paginas.home.home_about')
-    {{-- imagen de seccion --}}
-    <img src="{{url()}}/imagenes/Slider/uruwild_section_foto1.jpg" class="get_width_100">
-    @include('paginas.home.home_actividades')  
-    {{-- imagen de seccion --}}
-    <img src="{{url()}}/imagenes/Slider/uruwild_section_foto2.jpg" class="get_width_100">
 
+    <div class="parallax_section1"></div>
+    {{-- imagen de seccion --}}
+    <!--<img src="{{url()}}/imagenes/Slider/uruwild_section_foto1.jpg" class="get_width_100">-->
+    @include('paginas.home.home_actividades')  
+    <div class="parallax_section2"></div>
+    {{-- imagen de seccion --}}
+    <!--<img src="{{url()}}/imagenes/Slider/uruwild_section_foto2.jpg" class="get_width_100">-->
     {{-- morethanfishing --}}
     @include('paginas.home.home_morethanfishing') 
-
     @include('paginas.home.home_services')
-
-    
-
-    
     @include('paginas.home.home_galeria')
     @include('paginas.home.home_contacto')
     @include('paginas.home.home_footer')

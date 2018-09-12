@@ -14,13 +14,13 @@
               <p class="color-text-gris espacio-letras small"><i class="fa fa-envelope"></i> contacto@uruwild.com</p>
              
                <div class="mx-auto mt-4 flex-row-center flex-justifice-space-around" style="width:220px;">
-                 <a href=""><div class="footer_social_icon_facebook "></div></a>
-                 <a href=""><div class="footer_social_icon_instagram "></div></a>
-                 <a href=""><div class="footer_social_icon_twitter "></div></a>
+                 <a href="https://www.facebook.com/uruwildfishing/"><div class="footer_social_icon_facebook "></div></a>
+                 <a href="https://www.instagram.com/uruwild/"><div class="footer_social_icon_instagram "></div></a>
+                 <a href="https://twitter.com/uruwild"><div class="footer_social_icon_twitter "></div></a>
 
-              {{--   <span class="col-md-4 mx-auto "><a href=""> <div class="footer_social_icon_facebook iconos-tamano"></div>  </a></span>
-                <span class="col-md-4 mx-auto "><a href=""> <div class="footer_social_icon_instagram iconos-tamano"></div> </a></span>
-                <span class="col-md-4 mx-auto "><a href=""> <div class="footer_social_icon_twitter iconos-tamano"></div> </a></span> --}}
+              {{--   <span class="col-md-4 mx-auto "><a href="https://www.facebook.com/uruwildfishing/"> <div class="footer_social_icon_facebook iconos-tamano"></div>  </a></span>
+                <span class="col-md-4 mx-auto "><a href="https://www.instagram.com/uruwild/"> <div class="footer_social_icon_instagram iconos-tamano"></div> </a></span>
+                <span class="col-md-4 mx-auto "><a href="https://twitter.com/uruwild"> <div class="footer_social_icon_twitter iconos-tamano"></div> </a></span> --}}
                 </div>
 
               </div>
