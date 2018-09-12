@@ -24,7 +24,7 @@
                 </div>
 
                 <div v-show="mensaje_luego_de_envio != '' && mensaje_enaviado != true" class="alert alert-warning alert-dismissible fade show" role="alert">
-                   Algo no está bien <span class="fa frown-open"></span> . Verifica los datos e intenta de nuevo.
+                   Algo no está bien. Verifica los datos e intenta de nuevo.
                   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
