@@ -21,11 +21,15 @@
 }
 
 .enviar-boton-sin-efecto{
-
+  curso:pointer;
 }
 
 .enviar-boton-sin-efecto:hover{
    cursor: not-allowed;
+}
+
+input[disabled] {
+    cursor:not-allowed;
 }
 
 /* .mostrar-cabecera-destop{
