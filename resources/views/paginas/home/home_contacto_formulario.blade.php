@@ -33,7 +33,7 @@
                     <div v-on:click="enviar_contacto" class="btn btn-primary" value="Enviar"> Enviar </div>
                     {{-- <input type="submit" class="btn btn-primary" value="Enviar Submit">  --}}
                 </div> <div class="form-group" v-else="nombre !='' && email !='' && mensaje !='' ">                
-                    <a class="btn  disabled enviar-boton-sin-efecto" value="Enviar"> Enviar </a>
+                    <a class="btn  disabled enviar-boton-sin-efecto" disabled value="Enviar"> Enviar </a>
                     
                 </div> 
                 <div id="respuesta" style="display: none;"></div>
