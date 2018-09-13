@@ -28,8 +28,9 @@
    cursor: not-allowed;
 }
 
-input[disabled] {
-    cursor:not-allowed;
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
 }
 
 /* .mostrar-cabecera-destop{
