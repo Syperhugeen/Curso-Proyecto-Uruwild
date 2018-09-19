@@ -15,11 +15,11 @@
   display:none;
 }
 
-.Slider_cabecer_img{
+.Slider_cabecer_img, .no_mostrar_en_small{
   display:none;
 }
 
-.Slider_cabecer_img_responsive{
+.Slider_cabecer_img_responsive, .mostrar_en_small{
 
 }
 
@@ -31,11 +31,11 @@
   display:block;
 }
 
-.Slider_cabecer_img{
+.Slider_cabecer_img , .no_mostrar_en_small{
   display:block;
 }
 
-.Slider_cabecer_img_responsive{
+.Slider_cabecer_img_responsive,.mostrar_en_small{
  display:none;
 }
 
