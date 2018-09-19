@@ -14,11 +14,11 @@
     </div>
      <div class="carousel-item">
       <img class="img-slider-size Slider_cabecer_img" src="{{url()}}/imagenes/Slider/uruwild_portada_foto6b.jpg" alt="Third slide">
-      <img class="img-slider-size Slider_cabecer_img_responsive" src="{{url()}}/imagenes/Slider/responsive/uruwild_portada_foto6b.jpg" alt="Third slide">
+      <img class="img-slider-size Slider_cabecer_img_responsive" src="{{url()}}/imagenes/Slider/responsive/uruwild_portada_foto2.jpg" alt="Third slide">
     </div>
     <div class="carousel-item">
       <img class="img-slider-size Slider_cabecer_img" src="{{url()}}/imagenes/Slider/uruwild_portada_foto2.jpg" alt="Second slide">
-      <img class="img-slider-size Slider_cabecer_img_responsive" src="{{url()}}/imagenes/Slider/responsive/uruwild_portada_foto2.jpg" alt="Second slide">
+      <img class="img-slider-size Slider_cabecer_img_responsive" src="{{url()}}/imagenes/Slider/responsive/uruwild_portada_foto3.jpg" alt="Second slide">
     </div>
   </div>
 
