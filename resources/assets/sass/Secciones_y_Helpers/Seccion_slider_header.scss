@@ -15,6 +15,13 @@
   display:none;
 }
 
+.Slider_cabecer_img{
+  display:none;
+}
+
+.Slider_cabecer_img_responsive{
+
+}
 
 
 @media (min-width: $BrackPoint-Primario){
@@ -22,6 +29,14 @@
 .Slider_cabecera_caption_logo{  
   height: 60px;  
   display:block;
+}
+
+.Slider_cabecer_img{
+  display:block;
+}
+
+.Slider_cabecer_img_responsive{
+ display:none;
 }
 
    
