@@ -16,7 +16,7 @@
               <a class="nav-link js-scroll-trigger" href="#services">SERVICIOS</a>
             </li> 
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">GALERIA</a>
+              <a class="nav-link js-scroll-trigger" href="#galeria">GALERIA</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">CONTACTO</a>
