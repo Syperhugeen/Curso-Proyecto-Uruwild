@@ -9,8 +9,8 @@
             </div>
             <div class="  text-center contenedor-columna-footer border-switch Helper-OrdenarHijos-Row">
               <div class="get_width_100 flex-row-column">
-               <p class="color-text-gris espacio-letras small"> <span class="helper-aumenta-texto"><i class="fa fa-phone"></i></span> 2601 1234</p>
-              <p class="color-text-gris espacio-letras small">  <span class="helper-aumenta-texto"><i class="fa fa-mobile"></i></span> 099 123 456</p>
+               {{-- <p class="color-text-gris espacio-letras small"> <span class="helper-aumenta-texto"><i class="fa fa-phone"></i></span> 2601 1234</p> --}}
+              <p class="color-text-gris espacio-letras small">  <span class="helper-aumenta-texto"><i class="fa fa-mobile"></i></span>(+598) 98 395 036</p>
               <p class="color-text-gris espacio-letras small">  <span class="helper-aumenta-texto"><i class="fa fa-envelope"></i></span> contacto@uruwild.com</p>
              
                <div class="mx-auto mt-4 flex-row-center flex-justifice-space-around" style="width:220px;">
