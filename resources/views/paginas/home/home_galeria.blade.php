@@ -189,7 +189,8 @@
 
 
      {{-- la experiencia Uruwild NO-RESPONSIVE--}}
-    <section class="p-0 no_mostrar_en_small">
+    <section class="p-0 no_mostrar_en_small"
+    >
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">

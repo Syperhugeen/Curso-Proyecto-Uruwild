@@ -13,11 +13,11 @@
               <p class="color-text-gris espacio-letras small">  <span class="helper-aumenta-texto"><i class="fa fa-mobile"></i></span> 099 123 456</p>
               <p class="color-text-gris espacio-letras small">  <span class="helper-aumenta-texto"><i class="fa fa-envelope"></i></span> contacto@uruwild.com</p>
              
-               <div class="mx-auto mt-4 flex-row-center flex-justifice-space-around" style="width:130px;">
+               <div class="mx-auto mt-4 flex-row-center flex-justifice-space-around" style="width:220px;">
                  <a href="https://www.instagram.com/uruwild/"><div class="footer_social_icon_instagram "></div></a>
                  <a href="https://www.facebook.com/uruwildfishing/"><div class="footer_social_icon_facebook "></div></a>
                  
-                 {{-- <a href="https://twitter.com/uruwild"><div class="footer_social_icon_twitter "></div></a> --}}
+                 <a href="https://twitter.com/uruwild"><div class="footer_social_icon_twitter "></div></a>
 
               {{--   <span class="col-md-4 mx-auto "><a href="https://www.facebook.com/uruwildfishing/"> <div class="footer_social_icon_facebook iconos-tamano"></div>  </a></span>
                 <span class="col-md-4 mx-auto "><a href="https://www.instagram.com/uruwild/"> <div class="footer_social_icon_instagram iconos-tamano"></div> </a></span>
