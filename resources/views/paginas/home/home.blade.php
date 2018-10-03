@@ -23,7 +23,7 @@
 
   </head>
 
-  <body id="page-top">
+  <body id="page-top" data-spy="scroll" data-target="navbar" data-offset="120">
 
     <!-- Navigation -->
     @include('paginas.home.home_nav')
