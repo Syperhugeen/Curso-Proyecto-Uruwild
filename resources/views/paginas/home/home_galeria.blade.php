@@ -1,5 +1,5 @@
     {{-- la experiencia Uruwild REPONSIVE--}}
-    <span id="galeria"></span>
+    <span id="galeria">
     <section class="p-0 mostrar_en_small" id="">
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
@@ -376,3 +376,4 @@
         </div>
       </div>
     </section>
+    </span>
