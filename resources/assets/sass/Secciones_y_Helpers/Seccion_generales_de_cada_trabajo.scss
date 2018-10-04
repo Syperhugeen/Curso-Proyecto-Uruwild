@@ -20,6 +20,19 @@
   color: #b4b4b4;
 }
 
+.enviar-boton-sin-efecto{
+  curso:pointer;
+}
+
+.enviar-boton-sin-efecto:hover{
+   cursor: not-allowed;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+
 /* .mostrar-cabecera-destop{
   display:none;
 }

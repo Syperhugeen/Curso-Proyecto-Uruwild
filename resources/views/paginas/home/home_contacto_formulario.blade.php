@@ -24,7 +24,7 @@
                 </div>
 
                 <div v-show="mensaje_luego_de_envio != '' && mensaje_enaviado != true" class="alert alert-warning alert-dismissible fade show" role="alert">
-                   Algo no está bien <span class="fa frown-open"></span> . Verifica los datos e intenta de nuevo.
+                   Algo no está bien. Verifica los datos e intenta de nuevo.
                   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
@@ -33,7 +33,7 @@
                     <div v-on:click="enviar_contacto" class="btn btn-primary" value="Enviar"> Enviar </div>
                     {{-- <input type="submit" class="btn btn-primary" value="Enviar Submit">  --}}
                 </div> <div class="form-group" v-else="nombre !='' && email !='' && mensaje !='' ">                
-                    <a class="btn  disabled" value="Enviar"> Enviar </a>
+                    <button class="btn btn-primary" disabled>Enviar</button>
                     
                 </div> 
                 <div id="respuesta" style="display: none;"></div>
@@ -43,8 +43,8 @@
             {!! Form::close() !!}
 
 
-      <div v-show="mensaje_enaviado == true" class="bg-primary p-5 get_width_100" role="alert">
-        <h2 class="text-center text-white"><span class="fa fa-check-circle"></span> </h2> 
+      <div v-show="mensaje_enaviado == true" class="p-5 get_width_100" role="alert">
+        <h2 class="text-center text-color-primary"><span class="fa fa-check-circle"></span> </h2> 
         <br>
-        <h2 class="text-center text-white">@{{mensaje_luego_de_envio}}</h2>        
+        <h2 class="text-center text-color-primary">@{{mensaje_luego_de_envio}}</h2>        
       </div>

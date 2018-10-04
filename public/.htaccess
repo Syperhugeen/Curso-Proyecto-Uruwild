@@ -1,3 +1,6 @@
+
+
+
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews
@@ -14,3 +17,11 @@
     RewriteRule ^ index.php [L]
 </IfModule>
 
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^uruwild.com
+RewriteRule (.*) https://www.uruwild.com/$1 [R=301,L]
