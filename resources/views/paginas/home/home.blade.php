@@ -1,14 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
   <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Pesca deportiva y ecoturismo en los lugares naturales más tranquilos del Uruguay.">
+    <meta name="author" content="Simbionte">
 
-    <title>Uruwild</title>
+<!-- META-TAGS DE FAVICONS, DISPOSITIVOS Y THUMBNAILS -->
+    <!-- social media meta-tags for proper sharing
+        (la imagen tiene que estar en la carpeta root, ratio 1.91:1 1200x630px) -->
+        <meta property="og:title" content="URUWILD">
+        <meta property="og:description" content="Pesca deportiva y ecoturismo.">
+        <meta property="og:image" content="https://www.uruwild.com/thumbnail.jpg">
+        <meta property="og:url" content="https://www.uruwild.com/">
+        
+        <!-- Favicons (tienen que estar en la carpeta root) -->
+        <link rel="icon" type="image/png" href="https://www.uruwild.com/favicon-16x16.png" sizes="16x16">  
+        <link rel="icon" type="image/png" href="https://www.uruwild.com/favicon-32x32.png" sizes="32x32">  
+        <link rel="icon" type="image/png" href="https://www.uruwild.com/favicon-96x96.png" sizes="96x96">
+
+        <!-- Apple Touch Icons (tienen que estar en la carpeta root) -->
+        <link rel="apple-touch-icon" href="older-iPhone.png"> <!-- // 120px -->  
+        <link rel="apple-touch-icon" sizes="180x180" href="iPhone-6-Plus.png">  
+        <link rel="apple-touch-icon" sizes="152x152" href="iPad-Retina.png">  
+        <link rel="apple-touch-icon" sizes="167x167" href="iPad-Pro.png">
+    <!-- / fin del social media meta-tags for proper sharing-->
+
+    <!-- realfavicongenerator headlines -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=rMqPKoN4Rp">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=rMqPKoN4Rp">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=rMqPKoN4Rp">
+        <link rel="manifest" href="/site.webmanifest?v=rMqPKoN4Rp">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg?v=rMqPKoN4Rp" color="#f2b829">
+        <link rel="shortcut icon" href="/favicon.ico?v=rMqPKoN4Rp">
+        <meta name="apple-mobile-web-app-title" content="URUWILD">
+        <meta name="application-name" content="URUWILD">
+        <meta name="msapplication-TileColor" content="#f2b829">
+        <meta name="theme-color" content="#ffffff">
+    <!-- / fin de realfavicongenerator headlines -->
+<!-- / fin de META-TAGS DE FAVICONS, DISPOSITIVOS Y THUMBNAILS -->
+
+    <title>URUWILD</title>
 
     {{-- css --}}
    
