@@ -9,8 +9,7 @@
     <meta name="author" content="Simbionte">
 
 <!-- META-TAGS DE FAVICONS, DISPOSITIVOS Y THUMBNAILS -->
-    <!-- social media meta-tags for proper sharing
-        (la imagen tiene que estar en la carpeta root, ratio 1.91:1 1200x630px) -->
+    <!-- social media meta-tags for proper sharing (la imagen tiene que estar en la carpeta root, ratio 1.91:1 1200x630px) -->
         <meta property="og:title" content="URUWILD">
         <meta property="og:description" content="Pesca deportiva y ecoturismo.">
         <meta property="og:image" content="https://www.uruwild.com/thumbnail.jpg">
@@ -53,11 +52,35 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
- 
+
+
+<!-- SMOOTH SCROLL -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+  $(function() {
+    // This will select everything with the class smoothScroll
+    // This should prevent problems with carousel, scrollspy, etc...
+    $('.smoothScroll').click(function() {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 800); // The number here represents the speed of the scroll in milliseconds
+          return false;
+        }
+      }
+    });
+  });
+  </script>
+  <!-- End of SMOOTH SCROLL -->
+
+
 
   </head>
 
-  <body id="page-top" data-spy="scroll" data-target="#mainNav" data-offset="62">
+  <body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="62">
 
     <!-- Navigation -->
     @include('paginas.home.home_nav')
