@@ -8,7 +8,7 @@
     <meta name="description" content="Pesca deportiva y ecoturismo en los lugares naturales más tranquilos del Uruguay.">
     <meta name="author" content="Simbionte">
 
-<!-- META-TAGS DE FAVICONS, DISPOSITIVOS Y THUMBNAILS -->
+<!-- META-TAGS DE FAVICONS, DISPOSITIVOS Y THUMBNAILS! -->
     <!-- social media meta-tags for proper sharing (la imagen tiene que estar en la carpeta root, ratio 1.91:1 1200x630px) -->
         <meta property="og:title" content="URUWILD">
         <meta property="og:description" content="Pesca deportiva y ecoturismo.">
