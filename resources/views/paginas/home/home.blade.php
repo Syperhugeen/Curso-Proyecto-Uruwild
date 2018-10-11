@@ -10,8 +10,8 @@
 
 <!-- META-TAGS DE FAVICONS, DISPOSITIVOS Y THUMBNAILS! -->
     <!-- social media meta-tags for proper sharing (la imagen tiene que estar en la carpeta root, ratio 1.91:1 1200x630px) -->
-        <meta property="og:title" content="URUWILD">
-        <meta property="og:description" content="Pesca deportiva y ecoturismo.">
+        <meta property="og:title" content="URUWILD | #morethanfishing">
+        <meta property="og:description" content="Pesca deportiva y ecoturismo en los lugares naturales más tranquilos del Uruguay.">
         <meta property="og:image" content="https://www.uruwild.com/thumbnail.jpg">
         <meta property="og:url" content="https://www.uruwild.com/">
         
