@@ -3,7 +3,7 @@
 
 
 
-require __DIR__ . '/Formularios/Rutas_Formularios_Publicas.php';
+
 
 
 
@@ -34,6 +34,6 @@ Route::get('/Servicios' , [
 );
 
 
-
+require __DIR__ . '/Formularios/Rutas_Formularios_Publicas.php';
 
 
