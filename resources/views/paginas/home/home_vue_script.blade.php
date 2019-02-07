@@ -25,7 +25,7 @@
     methods:{
 
     enviar_contacto: function(){
-      var url = '/envio_post_contacto';
+      var url = 'envio_post_contacto';
 
       var data = {  nombre:this.nombre,
                      email:this.email, 
