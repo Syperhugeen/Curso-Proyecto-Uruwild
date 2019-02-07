@@ -50,7 +50,7 @@ class Envio_Formularios_Controller extends Controller
 
             if($Validacion == true)
             {
-                $this->EmailsRepo->EnvioEmailDeContacto($name, $email, $mensaje, 'contacto@uruwild.com', 'Uruwild');
+                $this->EmailsRepo->EnvioEmailDeContacto($name, $email, $mensaje, 'contacto@uruwild.com.uy', 'Uruwild');
                 
             }
 
