@@ -191,7 +191,7 @@
      {{-- la experiencia Uruwild NO-RESPONSIVE--}}
     <section class="p-0 no_mostrar_en_small" "
     >
-      <div class="container-fluid p-0" v-show="windowWidth > 420>
+      <div class="container-fluid p-0" v-show="windowWidth > 420" >
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/URUWILD_arapey.jpg">
