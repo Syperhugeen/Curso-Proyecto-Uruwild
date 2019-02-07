@@ -1,6 +1,6 @@
     {{-- la experiencia Uruwild REPONSIVE--}}
     <span id="galeria" >
-    <section class="p-0 mostrar_en_small" id="" v-if="windowWidth < 420">
+    <section class="p-0 mostrar_en_small" id="" v-show="windowWidth < 420">
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">
@@ -189,7 +189,7 @@
 
 
      {{-- la experiencia Uruwild NO-RESPONSIVE--}}
-    <section class="p-0 no_mostrar_en_small" v-if="windowWidth > 420"
+    <section class="p-0 no_mostrar_en_small" v-show="windowWidth > 420"
     >
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
