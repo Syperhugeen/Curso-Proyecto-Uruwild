@@ -1,6 +1,6 @@
     {{-- la experiencia Uruwild REPONSIVE--}}
     <span id="galeria" >
-    <section class="p-0 >
+    <section class="p-0">
       <div class="container-fluid p-0" v-if="windowWidth < 420">
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">
