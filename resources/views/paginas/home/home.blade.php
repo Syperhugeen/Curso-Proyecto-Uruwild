@@ -82,26 +82,27 @@
 
   <body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="62">
 
-    <!-- Navigation -->
-    @include('paginas.home.home_nav')
-    @include('paginas.home.slider')
-    @include('paginas.home.home_about')
 
-   {{--  <div class="parallax_section1"></div> --}}
-    {{-- imagen de seccion --}}
-    <img src="{{url()}}/imagenes/Slider/uruwild_section_foto1.jpg" class="get_width_100">
-    @include('paginas.home.home_actividades')  
-    {{-- <div class="parallax_section2"></div> --}}
-    {{-- imagen de seccion --}}
-    <img src="{{url()}}/imagenes/Slider/uruwild_section_foto2.jpg" class="get_width_100">
-    {{-- morethanfishing --}}
-    @include('paginas.home.home_morethanfishing') 
-    @include('paginas.home.home_services')
-    @include('paginas.home.home_galeria')
-    @include('paginas.home.home_contacto')
-    @include('paginas.home.home_footer')
+    <span id="app">
+            <!-- Navigation -->
+            @include('paginas.home.home_nav')
+            @include('paginas.home.slider')
+            @include('paginas.home.home_about')
 
-
+            {{--  <div class="parallax_section1"></div> --}}
+            {{-- imagen de seccion --}}
+            <img src="{{url()}}/imagenes/Slider/uruwild_section_foto1.jpg" class="get_width_100">
+            @include('paginas.home.home_actividades')  
+            {{-- <div class="parallax_section2"></div> --}}
+            {{-- imagen de seccion --}}
+            <img src="{{url()}}/imagenes/Slider/uruwild_section_foto2.jpg" class="get_width_100">
+            {{-- morethanfishing --}}
+            @include('paginas.home.home_morethanfishing') 
+            @include('paginas.home.home_services')
+            @include('paginas.home.home_galeria')
+            @include('paginas.home.home_contacto')
+            @include('paginas.home.home_footer')
+    </span>
 
     <!-- Scripts -->
     <script src="{{url()}}{{ elixir('js/all.js')}} " ></script>  

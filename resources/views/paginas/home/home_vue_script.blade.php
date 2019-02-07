@@ -12,7 +12,7 @@
 <script type="text/javascript">
 
    var app = new Vue({
-    el: '#contact',    
+    el: '#app',    
     data:{
 
       nombre:'',
@@ -20,6 +20,7 @@
       mensaje:'',
       mensaje_enaviado:false,
       mensaje_luego_de_envio:'',
+      windowWidth: window.innerWidth,
     },
     methods:{
 
@@ -58,6 +59,22 @@
            });
     }
     },
+    watch: {
+    windowHeight(newHeight, oldHeight) {
+     /*this.txt = `it changed to ${newHeight} from ${oldHeight}`;*/
+    }
+    },  
+
+    mounted(){
+      this.$nextTick(() => {
+        window.addEventListener('resize', () => {
+          this.windowWidth = window.innerWidth
+        });
+      })
+    },
+
+
+    ,
 
    });
 
