@@ -46,6 +46,9 @@
             {
               app.mensaje_enaviado = true;
               app.mensaje_luego_de_envio = 'Consulta enviada correctamente, en breve te responderemos a '+ app.email;
+
+              //facebook event
+              fbq('track', 'CompleteRegistration');
             }
             else
             {
