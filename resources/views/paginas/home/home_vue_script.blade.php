@@ -48,7 +48,7 @@
               app.mensaje_luego_de_envio = 'Consulta enviada correctamente, en breve te responderemos a '+ app.email;
 
               //facebook event
-              fbq('track', 'CompleteRegistration');
+              /*fbq('track', 'CompleteRegistration');*/
             }
             else
             {
