@@ -1,4 +1,4 @@
-             {!! Form::open( ['route'   => $Route,
+             {!! Form::open( ['route'   => 'post_contacto_form',
                              'method'   => 'Post',
                              'files'    => true,
                              'class'    => 'col-lg-6 mx-auto text-center get_width_100',
