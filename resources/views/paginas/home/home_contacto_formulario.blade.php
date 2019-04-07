@@ -9,7 +9,7 @@
                             <h2 class="section-heading">Contáctanos</h2>
                             <hr class="my-4">
                            
-               {!! csrf_field() !!}             
+                        
                <div class="form-group">
                     <label class="control-label" for="Nombre">Nombres</label>
                     <input v-model="nombre" type="text" class="form-control" id="Nombre" name="nombre" placeholder="Introduzca su nombre" required  />
