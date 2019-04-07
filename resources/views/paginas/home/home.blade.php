@@ -98,9 +98,12 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window,document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
+
      fbq('init', '2259761627619578'); 
-    fbq('track', 'PageView');
+     fbq('track', 'PageView');
+     
     </script>
+
     <noscript>
      <img height="1" width="1" 
     src="https://www.facebook.com/tr?id=2259761627619578&ev=PageView
