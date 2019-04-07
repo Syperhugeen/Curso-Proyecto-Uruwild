@@ -1,5 +1,5 @@
              {!! Form::open( ['route'   => 'post_contacto_form',
-                             'method'   => 'Post',
+                             'method'   => 'POST',
                              'files'    => true,
                              'class'    => 'col-lg-6 mx-auto text-center get_width_100',
                              'v-show'   => "mensaje_enaviado != true"
@@ -9,7 +9,7 @@
                             <h2 class="section-heading">Contáctanos</h2>
                             <hr class="my-4">
                            
-                        
+
                <div class="form-group">
                     <label class="control-label" for="Nombre">Nombres</label>
                     <input v-model="nombre" type="text" class="form-control" id="Nombre" name="nombre" placeholder="Introduzca su nombre" required  />
@@ -38,7 +38,7 @@
                 </div> 
                 <div id="respuesta" style="display: none;"></div>
 
-<input type="submit" class="btn btn-primary" value="Enviar Submit"> 
+{{-- <input type="submit" class="btn btn-primary" value="Enviar Submit">  --}}
 
             {!! Form::close() !!}
 
