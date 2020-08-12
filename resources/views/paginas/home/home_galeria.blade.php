@@ -2,7 +2,7 @@
     <span id="galeria" >
     <section class="p-0">
       <div class="container-fluid p-0" v-if="windowWidth < 420">
-        <div class="row no-gutters popup-gallery">
+        <div class="row no-gutters popup-gallery"> 
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="{{url()}}/imagenes/Galeria/responsive/URUWILD_arapey.jpg">
               <img class="img-fluid" src="{{url()}}/imagenes/Galeria/responsive/URUWILD_arapey.jpg" alt="">
